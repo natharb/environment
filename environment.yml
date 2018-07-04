@@ -1,0 +1,47 @@
+name: bob.accent
+channels:
+  - https://www.idiap.ch/software/bob/conda
+  - defaults
+  - http://www.idiap.ch/software/bob/conda
+dependencies:
+  - alabaster=0.7.10
+  - babel=2.5.3
+  - bob=4.0.1
+  - bob.blitz
+  - bob.core
+  - bob.io.base
+  - bob.math
+  - bob.measure
+  - bob.io.image
+  - bob.db.base
+  - bob.io.video
+  - bob.io.matlab
+  - bob.io.audio
+  - bob.sp
+  - bob.ap
+  - bob.ip.base
+  - bob.ip.color
+  - bob.ip.draw
+  - bob.ip.gabor
+  - bob.learn.activation
+  - bob.learn.libsvm
+  - bob.learn.linear
+  - bob.learn.mlp
+  - bob.learn.boosting
+  - bob.db.iris
+  - bob.learn.em
+  - bob.db.wine
+  - bob.db.mnist
+  - bob.db.atnt
+  - bob.ip.facedetect
+  - bob.ip.optflow.hornschunck
+  - bob.ip.optflow.liu
+  - bob.ip.flandmark
+  - bob.bio.base
+  - bob.bio.face
+  - bob.bio.gmm
+  - bob.bio.spear
+  - bob.buildout
+  - zc.buildout
+  - zc.recipe.egg
+  - ipdb
