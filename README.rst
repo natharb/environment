@@ -12,7 +12,7 @@ After everything installed do::
  $ buildout
 
 Hey, so far I've created only the closedset_braccent_foldN protocols.
-It's straght forward to extend this to other datasets, since you organized the files in a very nice way (really now it's super clean).
+It's straight forward to extend this to other datasets, since you organized the files in a very nice way (really, now it's super clean).
 Follow the new set of instructions to run the verify.py ::
 
  $ cd environment
@@ -32,3 +32,6 @@ Follow the new set of instructions to run the verify.py ::
     
      $ ./bin/verify.py --help
 
+
+
+Please, take some time to see what I have done.
