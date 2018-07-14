@@ -45,3 +45,5 @@ dependencies:
   - zc.buildout
   - zc.recipe.egg
   - ipdb
+  - tabulate
+  - pyyaml
