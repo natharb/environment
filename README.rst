@@ -25,8 +25,10 @@ Follow the new set of instructions to run the verify.py ::
  $ # Check ./experiments/closedset_braccent_new_db/ to see how you'll trigger the thing.
  
  
- .. note::
-    Since now you are developing `bob.bio.base`, `bob.bio.spear`, etc you should ALWAYS use the `verify.py` from `./bin`, like ::
+
+.. note::
+ 
+   Since now you are developing `bob.bio.base`, `bob.bio.spear`, etc you should ALWAYS use the `verify.py` from `./bin`, like ::
     
-      $ ./bin/verify.py --help
+     $ ./bin/verify.py --help
 
