@@ -42,6 +42,7 @@ dependencies:
   - bob.bio.gmm
   - bob.bio.spear
   - bob.buildout
+  - bob.db.voxforge
   - zc.buildout
   - zc.recipe.egg
   - ipdb
