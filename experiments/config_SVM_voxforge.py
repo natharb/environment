@@ -6,8 +6,8 @@ import bob.bio.gmm
 import numpy
 import scipy.spatial
 
-temp_directory = './closedset_ynogutti/fold_1/temp/'
-result_directory = './closedset_ynogutti/fold_1/results/'
+temp_directory = './vox-forge-test'
+result_directory = './vox-forge-test'
 sub_directory = 'subdirectory'
 
 #database = 'database.py'
