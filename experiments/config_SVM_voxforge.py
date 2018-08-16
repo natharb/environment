@@ -11,7 +11,7 @@ result_directory = './vox-forge-test'
 sub_directory = 'subdirectory'
 
 #database = 'database.py'
-database = 'voxforge'
+database = 'database_voxforge.py'
 
 groups = ['dev']
 #groups = ['dev', 'eval']
