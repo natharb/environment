@@ -1,5 +1,5 @@
 ==============
-Manola project
+Master's project - Unicamp
 ==============
 
 
