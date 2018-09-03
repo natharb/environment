@@ -1,0 +1,2139 @@
+### Crossdatabase (2048) GMM
+
+The Recognition Rate of the development set of 'crossdata/16/results/subdirectory/crossdatabase/nonorm/scores-dev' is 39.732%
+The Recognition Rate of the development set of 'crossdata/32/results/subdirectory/crossdatabase/nonorm/scores-dev' is 39.112%
+The Recognition Rate of the development set of 'crossdata/64/results/subdirectory/crossdatabase/nonorm/scores-dev' is 40.248%
+The Recognition Rate of the development set of 'crossdata/128/results/subdirectory/crossdatabase/nonorm/scores-dev' is 40.557%
+The Recognition Rate of the development set of 'crossdata/256/results/subdirectory/crossdatabase/nonorm/scores-dev' is 43.137%
+The Recognition Rate of the development set of 'crossdata/512/results/subdirectory/crossdatabase/nonorm/scores-dev' is 47.368%
+The Recognition Rate of the development set of 'crossdata/1024/results/subdirectory/crossdatabase/nonorm/scores-dev' is 49.948%
+The Recognition Rate of the development set of 'crossdata/2048/results/subdirectory/crossdatabase/nonorm/scores-dev' is 52.116%
+
+The EER of the development set of 'crossdata/16/results/subdirectory/crossdatabase/nonorm/scores-dev' is 41.589%
+The EER of the development set of 'crossdata/32/results/subdirectory/crossdatabase/nonorm/scores-dev' is 42.092%
+The EER of the development set of 'crossdata/64/results/subdirectory/crossdatabase/nonorm/scores-dev' is 41.383%
+The EER of the development set of 'crossdata/128/results/subdirectory/crossdatabase/nonorm/scores-dev' is 39.835%
+The EER of the development set of 'crossdata/256/results/subdirectory/crossdatabase/nonorm/scores-dev' is 37.564%
+The EER of the development set of 'crossdata/512/results/subdirectory/crossdatabase/nonorm/scores-dev' is 36.133%
+The EER of the development set of 'crossdata/1024/results/subdirectory/crossdatabase/nonorm/scores-dev' is 35.384%
+The EER of the development set of 'crossdata/2048/results/subdirectory/crossdatabase/nonorm/scores-dev' is 34.675%
+
+
+
+Precision and Recall
+(0.21948379797997081, 0.25342587665168309, 0.21849155889586988, None)
+Accuracy
+385
+F1-Score
+0.218491558896
+
+Confusion Matrix
+[[  9   0   6  13   7]
+ [ 27   3  28  23 105]
+ [  1   8  23  31  75]
+ [  3   2   6  12  32]
+ [ 32  31  34 120 338]]
+ 
+ Precision and Recall
+(0.22495598103622355, 0.26857967656870668, 0.21567095770556674, None)
+Accuracy
+379
+F1-Score
+0.215670957706
+Confusion Matrix
+[[  9   0   8   6   3]
+ [ 26   6  28  35 115]
+ [  1   6  22  23  82]
+ [  3   0   1   7  22]
+ [ 33  32  38 128 335]]
+ 
+ Precision and Recall
+(0.21415835678126749, 0.23950116238408156, 0.19318889875468762, None)
+Accuracy
+390
+F1-Score
+0.193188898755
+Confusion Matrix
+[[  3   0   5   4   1]
+ [ 28   6  27  34 107]
+ [  7   7  23  24  80]
+ [  2   0   2   4  15]
+ [ 32  31  40 133 354]]
+
+(0.19845465519733044, 0.21239099065186018, 0.17868475199195272, None)
+Accuracy
+393
+F1-Score
+0.178684751992
+Confusion Matrix
+[[  2   0   2   1   2]
+ [ 26   4  24  40 104]
+ [  9   8  21  17  71]
+ [  1   0   2   0  14]
+ [ 34  32  48 141 366]]
+ 
+ Precision and Recall
+(0.19514309655252482, 0.15184946122161974, 0.17005206906001646, None)
+Accuracy
+418
+F1-Score
+0.17005206906
+Confusion Matrix
+[[  0   0   2   0   1]
+ [ 18   1  19  22  74]
+ [ 16  10  24  16  77]
+ [  2   0   2   0  12]
+ [ 36  33  50 161 393]]
+
+Precision and Recall
+(0.20227285346758223, 0.14703557312252963, 0.17027355623100301, None)
+Accuracy
+459
+F1-Score
+0.170273556231
+Confusion Matrix
+[[  0   0   0   0   1]
+ [  5   0  11   6  38]
+ [ 18  11  22  15  72]
+ [  1   0   1   0   9]
+ [ 48  33  63 178 437]]
+
+Precision and Recall
+(0.21124951414980844, 0.14889113582743513, 0.17462087248060504, None)
+Accuracy
+484
+F1-Score
+0.174620872481
+Confusion Matrix
+[[  0   0   0   0   0]
+ [  2   0   6   3  18]
+ [ 17   8  22  11  71]
+ [  0   0   0   0   6]
+ [ 53  36  69 185 462]]
+ 
+ Precision and Recall
+(0.2085731736659942, 0.14919733454490386, 0.17250607000112061, None)
+Accuracy
+505
+F1-Score
+0.172506070001
+Confusion Matrix
+[[  0   0   0   0   1]
+ [  1   0   3   2  12]
+ [ 13   6  16   8  50]
+ [  0   0   0   0   5]
+ [ 58  38  78 189 489]]
+
+
+### Crossdatabase (2048) i-vector
+
+#100
+
+The Recognition Rate of the development set of 'scores-dev' is 39.009%
+The EER of the development set of 'scores-dev' is 43.034%
+
+Precision and Recall
+(0.26852377744385675, 0.2579421888057859, 0.24324554354129013, None)
+Accuracy
+378
+F1-Score
+0.243245543541
+Confusion Matrix
+[[ 22   0  14  29  42]
+ [ 15   8  25  34  91]
+ [  0   7  21  34  74]
+ [  4   0   6  16  39]
+ [ 31  29  31  86 311]]
+ 
+#200
+
+(bob_py3) nathbapt@dspcom-wkst-1:/dados/nathaliaBatista/crossdatabase/150/results/subdirectory/crossdatabase/nonorm$ evaluate.py --dev-file scores-dev --rr
+The Recognition Rate of the development set of 'scores-dev' is 41.589%
+(bob_py3) nathbapt@dspcom-wkst-1:/dados/nathaliaBatista/crossdatabase/150/results/subdirectory/crossdatabase/nonorm$ evaluate.py --dev-file scores-dev -c 'EER'
+The EER of the development set of 'scores-dev' is 43.047%
+
+
+
+
+########################################################################################################################################################################################################################################################
+
+############ Recognition Rate for closedSet Gaussian N=16
+
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_16/fold_1/results/subdirectory/fold_1/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-16/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 50.000%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closedset_16/fold_2/results/subdirectory/fold_2/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset-16/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 80.822%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_16/fold_3/results/subdirectory/fold_3/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-16/fold-3/results/subdirectory/fold-3/nonorm/scores-dev' is 75.926%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_16/fold_4/results/subdirectory/fold_4/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-16/fold-4/results/subdirectory/fold-4/nonorm/scores-dev' is 68.627%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_16/fold_5/results/subdirectory/fold_5/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-16/fold-5/results/subdirectory/fold-5/nonorm/scores-dev' is 76.000%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_16/fold_6/results/subdirectory/fold_6/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-16/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 50.000%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_16/fold_7/results/subdirectory/fold_7/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-16/fold-7/results/subdirectory/fold-7/nonorm/scores-dev' is 65.455%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_16/fold_8/results/subdirectory/fold_8/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-16/fold-8/results/subdirectory/fold-8/nonorm/scores-dev' is 78.431%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_16/fold_9/results/subdirectory/fold_9/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-16/fold-9/results/subdirectory/fold-9/nonorm/scores-dev' is 64.000%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_16/fold_10/results/subdirectory/fold_10/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-16/fold-10/results/subdirectory/fold-10/nonorm/scores-dev' is 81.633%
+
+Média (RR): 69,054
+
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_16/fold_1/results/subdirectory/fold_1/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-16/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 19.231%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_16/fold_2/results/subdirectory/fold_2/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-16/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 19.064%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_16/fold_3/results/subdirectory/fold_3/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-16/fold-3/results/subdirectory/fold-3/nonorm/scores-dev' is 18.519%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_16/fold_4/results/subdirectory/fold_4/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-16/fold-4/results/subdirectory/fold-4/nonorm/scores-dev' is 25.490%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_16/fold_5/results/subdirectory/fold_5/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-16/fold-5/results/subdirectory/fold-5/nonorm/scores-dev' is 10.000%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_16/fold_6/results/subdirectory/fold_6/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-16/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 19.231%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_16/fold_7/results/subdirectory/fold_7/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-16/fold-7/results/subdirectory/fold-7/nonorm/scores-dev' is 20.000%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_16/fold_8/results/subdirectory/fold_8/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-16/fold-8/results/subdirectory/fold-8/nonorm/scores-dev' is 17.647%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_16/fold_9/results/subdirectory/fold_9/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-16/fold-9/results/subdirectory/fold-9/nonorm/scores-dev' is 20.000%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_16/fold_10/results/subdirectory/fold_10/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-16/fold-10/results/subdirectory/fold-10/nonorm/scores-dev' is 14.286%
+
+Média (EER): 18,3468
+
+ Precision: 0,796848073
+ Recall: 0,716111386
+ Accuracy: 37
+ F1-Score: 0,710891215
+
+Precision and Recall
+(0.74206349206349198, 0.70912698412698416, 0.63678047795694848, None)
+Accuracy
+26
+F1-Score
+0.636780477957
+
+[[ 1  0  0  0  0  0  0]
+ [ 0  4  0  1  0  0  0]
+ [ 0  0  2  0  0  0 16]
+ [ 0  0  0  4  0  1  5]
+ [ 0  0  0  0  1  0  0]
+ [ 0  0  0  1  0  7  0]
+ [ 0  0  0  0  1  1  7]]
+
+
+Precision and Recall
+(0.86632653061224485, 0.81290678433535579, 0.80944055944055937, None)
+Accuracy
+59
+F1-Score
+0.809440559441
+
+[[ 1  0  0  0  0  0  0]
+ [ 0  5  0  0  0  0  0]
+ [ 0  0  3  0  0  4  3]
+ [ 0  0  0  4  0  1  2]
+ [ 0  0  0  0  3  0  0]
+ [ 0  0  0  0  0  9  1]
+ [ 0  0  0  3  0  0 34]]
+
+
+Precision and Recall
+(0.84183673469387765, 0.75583566760037346, 0.78867676102699147, None)
+Accuracy
+41
+F1-Score
+0.788676761027
+
+[[ 1  0  0  0  0  0  0]
+ [ 0  4  0  0  0  0  0]
+ [ 0  0  3  0  0  0  0]
+ [ 0  0  0  5  0  1  3]
+ [ 0  0  0  0  3  0  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  9 25]]
+
+
+Precision and Recall
+(0.76020408163265307, 0.55377668308702799, 0.61658692185007979, None)
+Accuracy
+35
+F1-Score
+0.61658692185
+
+[[ 1  0  0  0  0  3  0]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  0  0  0  1]
+ [ 0  0  0  5  0  1  0]
+ [ 0  0  0  0  1  0  2]
+ [ 0  0  0  0  1  0  2]
+ [ 0  0  0  0  0  6 23]]
+
+
+Precision and Recall
+(0.84183673469387765, 0.82689678742310324, 0.80486990213433984, None)
+Accuracy
+38
+F1-Score
+0.804869902134
+
+[[ 1  0  0  0  0  0  0]
+ [ 0  3  0  1  0  0  0]
+ [ 0  0  1  0  0  0 10]
+ [ 0  0  0  3  0  0  0]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0 10  0]
+ [ 0  0  1  0  0  0 18]]
+
+
+Precision and Recall
+(0.74206349206349198, 0.70912698412698416, 0.63678047795694848, None)
+Accuracy
+26
+F1-Score
+0.636780477957
+
+[[ 1  0  0  0  0  0  0]
+ [ 0  4  0  1  0  0  0]
+ [ 0  0  2  0  0  0 16]
+ [ 0  0  0  4  0  1  5]
+ [ 0  0  0  0  1  0  0]
+ [ 0  0  0  1  0  7  0]
+ [ 0  0  0  0  1  1  7]]
+
+
+Precision and Recall
+(0.80272108843537426, 0.80426716141001842, 0.73598404879193047, None)
+Accuracy
+36
+F1-Score
+0.735984048792
+
+[[ 1  0  0  1  0  0  0]
+ [ 0  4  0  0  0  0  0]
+ [ 0  0  3  0  0  0  0]
+ [ 0  0  0  6  0  0 16]
+ [ 0  0  0  0  1  0  0]
+ [ 0  0  0  0  0  9  0]
+ [ 0  0  0  0  2  0 12]]
+
+
+Precision and Recall
+(0.86122448979591837, 0.80654761904761918, 0.79047619047619044, None)
+Accuracy
+40
+F1-Score
+0.790476190476
+
+[[ 1  0  0  0  0  0  0]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  0  0  3  1]
+ [ 0  0  0  5  0  0  0]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0  1  1]
+ [ 0  0  0  0  0  6 26]]
+
+
+Precision and Recall
+(0.69387755102040816, 0.47117794486215531, 0.54675324675324677, None)
+Accuracy
+32
+F1-Score
+0.546753246753
+
+[[ 1  0  0  0  0  0  2]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  0  0  0  1]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  2  0  1]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  4  0 10 24]]
+
+
+Precision and Recall
+(0.81632653061224492, 0.71145124716553287, 0.74256355889008951, None)
+Accuracy
+40
+F1-Score
+0.74256355889
+
+[[ 0  0  0  0  0  0  0]
+ [ 0  3  0  0  0  0  1]
+ [ 0  0  1  0  0  0  0]
+ [ 0  0  0  4  0  0  5]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0 10  2]
+ [ 1  0  0  0  0  0 20]]
+
+
+
+############ Recognition Rate for closedSet Gaussian N=32
+
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_32/fold_1/results/subdirectory/fold_1/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-32/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 57.692%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_32/fold_2/results/subdirectory/fold_2/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-32/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 83.562%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_32/fold_3/results/subdirectory/fold_3/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-32/fold-3/results/subdirectory/fold-3/nonorm/scores-dev' is 74.074%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_32/fold_4/results/subdirectory/fold_4/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-32/fold-4/results/subdirectory/fold-4/nonorm/scores-dev' is 66.667%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_32/fold_5/results/subdirectory/fold_5/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-32/fold-5/results/subdirectory/fold-5/nonorm/scores-dev' is 86.000%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_32/fold_6/results/subdirectory/fold_6/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-32/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 55.769%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_32/fold_7/results/subdirectory/fold_7/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-32/fold-7/results/subdirectory/fold-7/nonorm/scores-dev' is 63.636%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_32/fold_8/results/subdirectory/fold_8/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-32/fold-8/results/subdirectory/fold-8/nonorm/scores-dev' is 80.392%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_32/fold_9/results/subdirectory/fold_9/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-32/fold-9/results/subdirectory/fold-9/nonorm/scores-dev' is 66.000%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_32/fold_10/results/subdirectory/fold_10/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-32/fold-10/results/subdirectory/fold-10/nonorm/scores-dev' is 85.714%
+
+Média (RR): 71,9506
+
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_32/fold_1/results/subdirectory/fold_1/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-32/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 17.628%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_32/fold_2/results/subdirectory/fold_2/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-32/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 15.183%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_32/fold_3/results/subdirectory/fold_3/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-32/fold-3/results/subdirectory/fold-3/nonorm/scores-dev' is 18.519%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_32/fold_4/results/subdirectory/fold_4/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-32/fold-4/results/subdirectory/fold-4/nonorm/scores-dev' is 25.490%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_32/fold_5/results/subdirectory/fold_5/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-32/fold-5/results/subdirectory/fold-5/nonorm/scores-dev' is 10.000%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_32/fold_6/results/subdirectory/fold_6/nonorm/scores-dev -c 'EER'
+^[[AThe EER of the development set of 'closed-set/closedset-32/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 17.628%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_32/fold_7/results/subdirectory/fold_7/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-32/fold-7/results/subdirectory/fold-7/nonorm/scores-dev' is 21.818%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_32/fold_8/results/subdirectory/fold_8/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-32/fold-8/results/subdirectory/fold-8/nonorm/scores-dev' is 17.647%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_32/fold_9/results/subdirectory/fold_9/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-32/fold-9/results/subdirectory/fold-9/nonorm/scores-dev' is 20.000%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_32/fold_10/results/subdirectory/fold_10/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-32/fold-10/results/subdirectory/fold-10/nonorm/scores-dev' is 14.286%
+
+Média (EER): 17,8199
+
+Precision: 0,802664399
+Recall: 0,717643892
+Accuracy: 40
+F1-Score: 0,72199726
+
+Precision and Recall
+(0.76247165532879813, 0.73148002790859934, 0.67250364811340424, None)
+Accuracy
+30
+F1-Score
+0.672503648113
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  4  0  1  0  0  0]
+ [ 0  0  2  0  0  0 14]
+ [ 0  0  0  4  0  1  2]
+ [ 0  0  0  0  1  0  0]
+ [ 0  0  0  1  0  7  1]
+ [ 0  0  0  0  1  1 11]]
+
+Precision and Recall
+(0.87346938775510208, 0.82801325658468516, 0.82771444295935204, None)
+Accuracy
+61
+F1-Score
+0.827714442959
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  5  0  0  0  0  0]
+ [ 0  0  3  0  0  4  0]
+ [ 0  0  0  4  0  1  4]
+ [ 0  0  0  0  3  0  0]
+ [ 0  0  0  0  0  9  0]
+ [ 0  0  0  3  0  0 36]]
+
+Precision and Recall
+(0.83673469387755095, 0.74350649350649356, 0.77500000000000002, None)
+Accuracy
+40
+F1-Score
+0.775
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  4  0  0  0  0  0]
+ [ 0  0  3  0  0  0  0]
+ [ 0  0  0  5  0  2  4]
+ [ 0  0  0  0  3  0  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  8 24]]
+ 
+Precision and Recall
+(0.75510204081632648, 0.59523809523809523, 0.64557823129251701, None)
+Accuracy
+34
+F1-Score
+0.645578231293
+Confusion Matrix
+[[ 1  0  0  0  0  2  0]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  0  0  0  0]
+ [ 0  0  0  5  0  2  0]
+ [ 0  0  0  0  1  0  2]
+ [ 0  0  0  0  1  0  4]
+ [ 0  0  0  0  0  6 22]]
+
+Precision and Recall
+(0.86734693877551017, 0.8392857142857143, 0.83555729984301419, None)
+Accuracy
+43
+F1-Score
+0.835557299843
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  3  0  1  0  0  0]
+ [ 0  0  1  0  0  0  5]
+ [ 0  0  0  3  0  0  0]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0 10  0]
+ [ 0  0  1  0  0  0 23]]
+
+Precision and Recall
+(0.75736961451247153, 0.67105842336934773, 0.64833274740395486, None)
+Accuracy
+29
+F1-Score
+0.648332747404
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  4  0  1  0  0  0]
+ [ 0  0  2  0  0  0 15]
+ [ 0  0  0  4  0  1  2]
+ [ 0  0  0  0  1  0  1]
+ [ 0  0  0  1  0  7  0]
+ [ 0  0  0  0  1  1 10]]
+
+Precision and Recall
+(0.78231292517006801, 0.78503401360544223, 0.72037235947010381, None)
+Accuracy
+35
+F1-Score
+0.72037235947
+Confusion Matrix
+[[ 1  0  0  1  0  0  0]
+ [ 0  4  0  0  0  0  0]
+ [ 0  0  3  0  0  0  0]
+ [ 0  0  0  5  0  0 16]
+ [ 0  0  0  0  1  0  0]
+ [ 0  0  0  1  0  9  0]
+ [ 0  0  0  0  2  0 12]]
+ 
+ Precision and Recall
+(0.86632653061224485, 0.82773109243697474, 0.81490015360983103, None)
+Accuracy
+41
+F1-Score
+0.81490015361
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  0  0  2  0]
+ [ 0  0  0  5  0  0  0]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0  1  1]
+ [ 0  0  0  0  0  7 27]]
+
+
+Precision and Recall
+(0.69897959183673475, 0.49633699633699629, 0.57327647476901211, None)
+Accuracy
+33
+F1-Score
+0.573276474769
+Confusion Matrix
+[[ 1  0  0  0  0  0  1]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  0  0  0  1]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  2  0  1]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  4  0 10 25]]
+
+
+Precision and Recall
+(0.82653061224489799, 0.65875480627033423, 0.70673724035068564, None)
+Accuracy
+42
+F1-Score
+0.706737240351
+Confusion Matrix
+[[ 0  0  0  0  0  0  0]
+ [ 0  3  0  0  0  0  1]
+ [ 0  0  1  0  0  0  2]
+ [ 0  0  0  4  0  0  3]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0 10  0]
+ [ 1  0  0  0  0  0 22]]
+
+
+
+############ Recognition Rate for closedSet Gaussian N=64
+
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_64/fold_1/results/subdirectory/fold_1/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-64/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 57.692%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_64/fold_2/results/subdirectory/fold_2/nonorm/scores-dev --rr 
+The Recognition Rate of the development set of 'closed-set/closedset-64/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 83.562%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_64/fold_3/results/subdirectory/fold_3/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-64/fold-3/results/subdirectory/fold-3/nonorm/scores-dev' is 72.222%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_64/fold_4/results/subdirectory/fold_4/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-64/fold-4/results/subdirectory/fold-4/nonorm/scores-dev' is 66.667%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_64/fold_5/results/subdirectory/fold_5/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-64/fold-5/results/subdirectory/fold-5/nonorm/scores-dev' is 96.000%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_64/fold_6/results/subdirectory/fold_6/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-64/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 57.692%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_64/fold_6/results/subdirectory/fold_6/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-64/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 57.692%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_64/fold_7/results/subdirectory/fold_7/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-64/fold-7/results/subdirectory/fold-7/nonorm/scores-dev' is 63.636%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_64/fold_8/results/subdirectory/fold_8/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-64/fold-8/results/subdirectory/fold-8/nonorm/scores-dev' is 80.392%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_64/fold_9/results/subdirectory/fold_9/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-64/fold-9/results/subdirectory/fold-9/nonorm/scores-dev' is 70.000%
+root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_64/fold_10/results/subdirectory/fold_10/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-64/fold-10/results/subdirectory/fold-10/nonorm/scores-dev' is 89.796%
+
+Média (RR): 73,8199
+
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_64/fold_1/results/subdirectory/fold_1/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-64/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 17.308%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_64/fold_2/results/subdirectory/fold_2/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-64/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 15.183%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_64/fold_3/results/subdirectory/fold_3/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-64/fold-3/results/subdirectory/fold-3/nonorm/scores-dev' is 18.519%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_64/fold_4/results/subdirectory/fold_4/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-64/fold-4/results/subdirectory/fold-4/nonorm/scores-dev' is 21.569%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_64/fold_5/results/subdirectory/fold_5/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-64/fold-5/results/subdirectory/fold-5/nonorm/scores-dev' is 9.500%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_64/fold_6/results/subdirectory/fold_6/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-64/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 17.308%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_64/fold_7/results/subdirectory/fold_7/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-64/fold-7/results/subdirectory/fold-7/nonorm/scores-dev' is 21.970%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_64/fold_8/results/subdirectory/fold_8/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-64/fold-8/results/subdirectory/fold-8/nonorm/scores-dev' is 17.647%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_64/fold_9/results/subdirectory/fold_9/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-64/fold-9/results/subdirectory/fold-9/nonorm/scores-dev' is 20.000%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_64/fold_10/results/subdirectory/fold_10/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-64/fold-10/results/subdirectory/fold-10/nonorm/scores-dev' is 14.286%
+
+Média (EER): 17,329
+
+Precision: 0,807256236
+Recall: 0,762717308
+Accuracy: 40
+F1-Score: 0,748817919
+
+Precision and Recall
+(0.76247165532879813, 0.72278911564625847, 0.65786794904441959, None)
+Accuracy
+30
+F1-Score
+0.657867949044
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  4  0  2  1  0  0]
+ [ 0  0  2  0  0  0 14]
+ [ 0  0  0  4  0  1  2]
+ [ 0  0  0  0  1  0  0]
+ [ 0  0  0  0  0  7  1]
+ [ 0  0  0  0  0  1 11]]
+ 
+Precision and Recall
+(0.87346938775510208, 0.82801325658468516, 0.82771444295935204, None)
+Accuracy
+61
+F1-Score
+0.827714442959
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  5  0  0  0  0  0]
+ [ 0  0  3  0  0  4  0]
+ [ 0  0  0  4  0  1  4]
+ [ 0  0  0  0  3  0  0]
+ [ 0  0  0  0  0  9  0]
+ [ 0  0  0  3  0  0 36]]
+
+
+Precision and Recall
+(0.83163265306122447, 0.74242424242424243, 0.7743950039032006, None)
+Accuracy
+39
+F1-Score
+0.774395003903
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  4  0  0  0  0  0]
+ [ 0  0  3  0  0  0  0]
+ [ 0  0  0  5  0  0  5]
+ [ 0  0  0  0  3  0  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  0 10 23]]
+ 
+ Precision and Recall
+(0.75510204081632648, 0.63010204081632648, 0.67451596023024596, None)
+Accuracy
+34
+F1-Score
+0.67451596023
+Confusion Matrix
+[[ 1  0  0  0  0  1  0]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  0  0  0  0]
+ [ 0  0  0  5  0  3  0]
+ [ 0  0  0  0  1  0  1]
+ [ 0  0  0  0  1  0  5]
+ [ 0  0  0  0  0  6 22]]
+ 
+ Precision and Recall
+(0.8928571428571429, 0.95935960591133007, 0.90905836018617969, None)
+Accuracy
+48
+F1-Score
+0.909058360186
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  3  0  1  0  0  0]
+ [ 0  0  1  0  0  0  0]
+ [ 0  0  0  3  0  0  0]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0 10  0]
+ [ 0  0  1  0  0  0 28]]
+ 
+ Precision and Recall
+(0.76247165532879813, 0.72278911564625847, 0.65786794904441959, None)
+Accuracy
+30
+F1-Score
+0.657867949044
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  4  0  2  1  0  0]
+ [ 0  0  2  0  0  0 14]
+ [ 0  0  0  4  0  1  2]
+ [ 0  0  0  0  1  0  0]
+ [ 0  0  0  0  0  7  1]
+ [ 0  0  0  0  0  1 11]]
+
+Precision and Recall
+(0.78231292517006801, 0.77551020408163251, 0.70408163265306123, None)
+Accuracy
+35
+F1-Score
+0.704081632653
+Confusion Matrix
+[[ 1  0  0  2  0  0  0]
+ [ 0  4  0  0  0  0  0]
+ [ 0  0  3  0  0  0  0]
+ [ 0  0  0  5  0  0 16]
+ [ 0  0  0  0  1  0  0]
+ [ 0  0  0  0  0  9  0]
+ [ 0  0  0  0  2  0 12]]
+
+Precision and Recall
+(0.86632653061224485, 0.84829931972789108, 0.83197278911564632, None)
+Accuracy
+41
+F1-Score
+0.831972789116
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  0  0  1  0]
+ [ 0  0  0  5  0  0  0]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0  1  1]
+ [ 0  0  0  0  0  8 27]]
+
+Precision and Recall
+(0.70918367346938782, 0.61788617886178865, 0.65465838509316765, None)
+Accuracy
+35
+F1-Score
+0.654658385093
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  0  0  0  1]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  4  0 10 27]]
+
+Precision and Recall
+(0.83673469387755095, 0.78000000000000003, 0.79604672057502235, None)
+Accuracy
+44
+F1-Score
+0.796046720575
+Confusion Matrix
+[[ 0  0  0  0  0  0  0]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  1  0  0  0  0]
+ [ 0  0  0  4  0  0  4]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0 10  0]
+ [ 1  0  0  0  0  0 24]]
+
+
+
+############ Recognition Rate for closedSet Gaussian N=128
+
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closedset_128/fold_1/results/subdirectory/fold_1/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset-128/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 69.231%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_128/fold_2/results/subdirectory/fold_2/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-128/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 86.301%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closedset_128/fold_3/results/subdirectory/fold_3/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset-128/fold-3/results/subdirectory/fold-3/nonorm/scores-dev' is 75.926%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closedset_128/fold_4/results/subdirectory/fold_4/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset-128/fold-4/results/subdirectory/fold-4/nonorm/scores-dev' is 68.627%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closedset_128/fold_5/results/subdirectory/fold_5/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset-128/fold-5/results/subdirectory/fold-5/nonorm/scores-dev' is 96.000%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closedset_128/fold_6/results/subdirectory/fold_6/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset-128/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 69.231%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closedset_128/fold_7/results/subdirectory/fold_7/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset-128/fold-7/results/subdirectory/fold-7/nonorm/scores-dev' is 67.273%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closedset_128/fold_8/results/subdirectory/fold_8/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset-128/fold-8/results/subdirectory/fold-8/nonorm/scores-dev' is 80.392%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closedset_128/fold_9/results/subdirectory/fold_9/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset-128/fold-9/results/subdirectory/fold-9/nonorm/scores-dev' is 70.000%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closedset_128/fold_10/results/subdirectory/fold_10/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset-128/fold-10/results/subdirectory/fold-10/nonorm/scores-dev' is 91.837%
+
+Média (RR): 77,4818
+
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_128/fold_1/results/subdirectory/fold_1/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-128/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 15.385%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_128/fold_2/results/subdirectory/fold_2/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-128/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 15.068%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_128/fold_3/results/subdirectory/fold_3/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-128/fold-3/results/subdirectory/fold-3/nonorm/scores-dev' is 18.519%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_128/fold_4/results/subdirectory/fold_4/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-128/fold-4/results/subdirectory/fold-4/nonorm/scores-dev' is 23.693%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_128/fold_5/results/subdirectory/fold_5/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-128/fold-5/results/subdirectory/fold-5/nonorm/scores-dev' is 9.833%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_128/fold_6/results/subdirectory/fold_6/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-128/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 15.385%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_128/fold_7/results/subdirectory/fold_7/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-128/fold-7/results/subdirectory/fold-7/nonorm/scores-dev' is 21.515%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_128/fold_8/results/subdirectory/fold_8/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-128/fold-8/results/subdirectory/fold-8/nonorm/scores-dev' is 17.647%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_128/fold_9/results/subdirectory/fold_9/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-128/fold-9/results/subdirectory/fold-9/nonorm/scores-dev' is 18.000%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_128/fold_10/results/subdirectory/fold_10/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-128/fold-10/results/subdirectory/fold-10/nonorm/scores-dev' is 14.286%
+
+Média (ERR): 19,585
+
+Precision: 0,845555556
+Recall: 0,772499362
+Accuracy: 42
+F1-Score: 0,776758086
+
+Precision and Recall
+(0.85941043083900215, 0.75945378151260512, 0.75528878217953843, None)
+Accuracy
+36
+F1-Score
+0.75528878218
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  4  0  2  0  0  0]
+ [ 0  0  2  0  0  0 10]
+ [ 0  0  0  4  0  1  1]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0  7  1]
+ [ 0  0  0  0  0  1 16]]
+
+Precision and Recall
+(0.8806122448979592, 0.85264227642276413, 0.84024563734708657, None)
+Accuracy
+63
+F1-Score
+0.840245637347
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  5  0  0  0  0  0]
+ [ 0  0  3  0  0  5  0]
+ [ 0  0  0  4  0  0  2]
+ [ 0  0  0  0  3  0  0]
+ [ 0  0  0  0  0  9  0]
+ [ 0  0  0  3  0  0 38]]
+ 
+Precision and Recall
+(0.84183673469387765, 0.76275510204081631, 0.79469736612593755, None)
+Accuracy
+41
+F1-Score
+0.794697366126
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  4  0  0  0  0  0]
+ [ 0  0  3  0  0  0  0]
+ [ 0  0  0  5  0  0  3]
+ [ 0  0  0  0  3  0  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  0 10 25]]
+ 
+Precision and Recall
+(0.82653061224489799, 0.62414965986394566, 0.68021026592455158, None)
+Accuracy
+35
+F1-Score
+0.680210265925
+Confusion Matrix
+[[ 1  0  0  0  0  3  0]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  0  0  0  0]
+ [ 0  0  0  5  0  1  0]
+ [ 0  0  0  0  2  0  2]
+ [ 0  0  0  0  0  0  4]
+ [ 0  0  0  0  0  6 22]]
+
+Precision and Recall
+(0.8928571428571429, 0.95129870129870131, 0.90476190476190488, None)
+Accuracy
+48
+F1-Score
+0.904761904762
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  3  0  1  0  0  0]
+ [ 0  0  1  0  0  0  0]
+ [ 0  0  0  3  0  0  0]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  1  0  0 10  0]
+ [ 0  0  0  0  0  0 28]]
+ 
+Precision and Recall
+(0.85941043083900215, 0.75945378151260512, 0.75528878217953843, None)
+Accuracy
+36
+F1-Score
+0.75528878218
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  4  0  2  0  0  0]
+ [ 0  0  2  0  0  0 10]
+ [ 0  0  0  4  0  1  1]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0  7  1]
+ [ 0  0  0  0  0  1 16]]
+
+Precision and Recall
+(0.87755102040816335, 0.79591836734693877, 0.7795918367346939, None)
+Accuracy
+37
+F1-Score
+0.779591836735
+Confusion Matrix
+[[ 1  0  0  2  0  0  0]
+ [ 0  4  0  0  0  0  0]
+ [ 0  0  3  0  0  0  0]
+ [ 0  0  0  5  0  0 16]
+ [ 0  0  0  0  3  0  0]
+ [ 0  0  0  0  0  9  0]
+ [ 0  0  0  0  0  0 12]]
+ 
+Precision and Recall
+(0.86632653061224485, 0.81101190476190488, 0.79523809523809519, None)
+Accuracy
+41
+F1-Score
+0.795238095238
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  0  0  4  0]
+ [ 0  0  0  5  0  0  0]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0  1  1]
+ [ 0  0  0  0  0  5 27]]
+
+Precision and Recall
+(0.70918367346938782, 0.61788617886178865, 0.65465838509316765, None)
+Accuracy
+35
+F1-Score
+0.654658385093
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  0  0  0  1]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  4  0 10 27]]
+
+Precision and Recall
+(0.84183673469387765, 0.7904238618524333, 0.80759980759980754, None)
+Accuracy
+45
+F1-Score
+0.8075998076
+Confusion Matrix
+[[ 0  0  0  0  0  0  0]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  1  0  0  0  0]
+ [ 0  0  0  4  0  0  3]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0 10  0]
+ [ 1  0  0  0  0  0 25]]
+
+
+
+############ Recognition Rate for closedSet Gaussian N=256
+
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closedset_256/fold_1/results/subdirectory/fold_1/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset-256/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 57.692%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_256/fold_2/results/subdirectory/fold_2/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-256/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 84.932%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closedset_256/fold_3/results/subdirectory/fold_3/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset-256/fold-3/results/subdirectory/fold-3/nonorm/scores-dev' is 72.222%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closedset_256/fold_4/results/subdirectory/fold_4/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset-256/fold-4/results/subdirectory/fold-4/nonorm/scores-dev' is 70.588%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closedset_256/fold_5/results/subdirectory/fold_5/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset-256/fold-5/results/subdirectory/fold-5/nonorm/scores-dev' is 98.000%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closedset_256/fold_6/results/subdirectory/fold_6/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset-256/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 57.692%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closedset_256/fold_7/results/subdirectory/fold_7/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset-256/fold-7/results/subdirectory/fold-7/nonorm/scores-dev' is 67.273%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closedset_256/fold_8/results/subdirectory/fold_8/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset-256/fold-8/results/subdirectory/fold-8/nonorm/scores-dev' is 80.392%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closedset_256/fold_9/results/subdirectory/fold_9/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset-256/fold-9/results/subdirectory/fold-9/nonorm/scores-dev' is 66.000%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closedset_256/fold_10/results/subdirectory/fold_10/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset-256/fold-10/results/subdirectory/fold-10/nonorm/scores-dev' is 87.755%
+
+Média (RR): 74,2516
+
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_256/fold_1/results/subdirectory/fold_1/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-256/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 21.474%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_256/fold_2/results/subdirectory/fold_2/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-256/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 15.068%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_256/fold_3/results/subdirectory/fold_3/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-256/fold-3/results/subdirectory/fold-3/nonorm/scores-dev' is 18.519%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_256/fold_4/results/subdirectory/fold_4/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-256/fold-4/results/subdirectory/fold-4/nonorm/scores-dev' is 23.693%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_256/fold_5/results/subdirectory/fold_5/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-256/fold-5/results/subdirectory/fold-5/nonorm/scores-dev' is 10.000%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_256/fold_6/results/subdirectory/fold_6/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-256/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 23.397%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_256/fold_7/results/subdirectory/fold_7/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-256/fold-7/results/subdirectory/fold-7/nonorm/scores-dev' is 25.455%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_256/fold_8/results/subdirectory/fold_8/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-256/fold-8/results/subdirectory/fold-8/nonorm/scores-dev' is 17.647%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_256/fold_9/results/subdirectory/fold_9/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-256/fold-9/results/subdirectory/fold-9/nonorm/scores-dev' is 18.000%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_256/fold_10/results/subdirectory/fold_10/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-256/fold-10/results/subdirectory/fold-10/nonorm/scores-dev' is 14.286%
+
+Média (ERR): 18,7539
+
+Precision: 0,844586168
+Recall: 0,727679163
+Accuracy: 40 
+F1-Score: 0,739340911
+
+Precision and Recall
+(0.82879818594104293, 0.54710884353741496, 0.57335960025035659, None)
+Accuracy
+30
+F1-Score
+0.57335960025
+Confusion Matrix
+[[ 1  0  0  1  0  0  4]
+ [ 0  4  0  1  0  0  0]
+ [ 0  0  2  0  0  0  6]
+ [ 0  0  0  4  0  0  3]
+ [ 0  0  0  0  2  0  4]
+ [ 0  0  0  0  0  7  1]
+ [ 0  0  0  0  0  2 10]]
+
+Precision and Recall
+(0.87704081632653064, 0.83877551020408159, 0.83207025893361297, None)
+Accuracy
+62
+F1-Score
+0.832070258934
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  5  0  0  0  0  0]
+ [ 0  0  3  0  0  5  0]
+ [ 0  0  0  4  0  0  3]
+ [ 0  0  0  0  3  0  0]
+ [ 0  0  0  0  0  9  0]
+ [ 0  0  0  3  0  0 37]]
+
+Precision and Recall
+(0.83163265306122447, 0.73904220779220786, 0.77023809523809528, None)
+Accuracy
+39
+F1-Score
+0.770238095238
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  4  0  0  0  0  0]
+ [ 0  0  3  0  0  0  0]
+ [ 0  0  0  5  0  1  5]
+ [ 0  0  0  0  3  0  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  9 23]]
+
+Precision and Recall
+(0.84081632653061222, 0.66878306878306881, 0.67272727272727273, None)
+Accuracy
+36
+F1-Score
+0.672727272727
+Confusion Matrix
+[[ 1  0  0  0  0  3  1]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  0  0  0  0]
+ [ 0  0  0  5  0  1  0]
+ [ 0  0  0  0  2  0  4]
+ [ 0  0  0  0  0  1  1]
+ [ 0  0  0  0  0  5 22]]
+
+Precision and Recall
+(0.9642857142857143, 0.9642857142857143, 0.95918367346938782, None)
+Accuracy
+49
+F1-Score
+0.959183673469
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  3  0  1  0  0  0]
+ [ 0  0  2  0  0  0  0]
+ [ 0  0  0  3  0  0  0]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0 10  0]
+ [ 0  0  0  0  0  0 28]]
+
+Precision and Recall
+(0.82879818594104293, 0.5587971552257267, 0.5867033993084414, None)
+Accuracy
+30
+F1-Score
+0.586703399308
+Confusion Matrix
+[[ 1  0  0  1  0  0  2]
+ [ 0  4  0  1  0  0  0]
+ [ 0  0  2  0  0  0  9]
+ [ 0  0  0  4  0  0  3]
+ [ 0  0  0  0  2  0  3]
+ [ 0  0  0  0  0  7  1]
+ [ 0  0  0  0  0  2 10]]
+
+Precision and Recall
+(0.87755102040816335, 0.79591836734693877, 0.7795918367346939, None)
+Accuracy
+37
+F1-Score
+0.779591836735
+Confusion Matrix
+[[ 1  0  0  2  0  0  0]
+ [ 0  4  0  0  0  0  0]
+ [ 0  0  3  0  0  0  0]
+ [ 0  0  0  5  0  0 16]
+ [ 0  0  0  0  3  0  0]
+ [ 0  0  0  0  0  9  0]
+ [ 0  0  0  0  0  0 12]]
+
+Precision and Recall
+(0.86632653061224485, 0.84829931972789108, 0.83197278911564632, None)
+Accuracy
+41
+F1-Score
+0.831972789116
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  0  0  1  0]
+ [ 0  0  0  5  0  0  0]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0  1  1]
+ [ 0  0  0  0  0  8 27]]
+
+Precision and Recall
+(0.69897959183673475, 0.54395604395604391, 0.60184790334044069, None)
+Accuracy
+33
+F1-Score
+0.60184790334
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  0  0  0  2]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  2  0  1]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  4  0 10 25]]
+
+Precision and Recall
+(0.83163265306122447, 0.77182539682539686, 0.7857142857142857, None)
+Accuracy
+43
+F1-Score
+0.785714285714
+Confusion Matrix
+[[ 0  0  0  0  0  0  0]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  1  0  0  0  0]
+ [ 0  0  0  4  0  0  5]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0 10  0]
+ [ 1  0  0  0  0  0 23]]
+
+
+
+############ Recognition Rate for closedSet Gaussian N=512
+
+(bob_py3) [root@oc3264037613 Experimentos]# evaluate.py --dev-files closedset/fold_1/results/subdirectory/fold_1/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 48.077%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_512/fold_2/results/subdirectory/fold_2/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closed-set/closedset-512/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 84.932%
+(bob_py3) [root@oc3264037613 Experimentos]# evaluate.py --dev-files closedset/fold_3/results/subdirectory/fold_3/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset/fold-3/results/subdirectory/fold-3/nonorm/scores-dev' is 70.370%
+(bob_py3) [root@oc3264037613 Experimentos]# evaluate.py --dev-files closedset/fold_4/results/subdirectory/fold_4/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset/fold-4/results/subdirectory/fold-4/nonorm/scores-dev' is 60.784%
+(bob_py3) [root@oc3264037613 Experimentos]# evaluate.py --dev-files closedset/fold_5/results/subdirectory/fold_5/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset/fold-5/results/subdirectory/fold-5/nonorm/scores-dev' is 82.000%
+(bob_py3) [root@oc3264037613 Experimentos]# evaluate.py --dev-files closedset/fold_6/results/subdirectory/fold_6/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 48.077%
+(bob_py3) [root@oc3264037613 Experimentos]# evaluate.py --dev-files closedset/fold_7/results/subdirectory/fold_7/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset/fold-7/results/subdirectory/fold-7/nonorm/scores-dev' is 67.273%
+(bob_py3) [root@oc3264037613 Experimentos]# evaluate.py --dev-files closedset/fold_8/results/subdirectory/fold_8/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset/fold-8/results/subdirectory/fold-8/nonorm/scores-dev' is 80.392%
+(bob_py3) [root@oc3264037613 Experimentos]# evaluate.py --dev-files closedset/fold_9/results/subdirectory/fold_9/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset/fold-9/results/subdirectory/fold-9/nonorm/scores-dev' is 44.000%
+(bob_py3) [root@oc3264037613 Experimentos]# evaluate.py --dev-files closedset/fold_10/results/subdirectory/fold_10/nonorm/scores-dev --rr
+The Recognition Rate of the development set of 'closedset/fold-10/results/subdirectory/fold-10/nonorm/scores-dev' is 85.714%
+
+Média (RR): 67,1619
+
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_512/fold_1/results/subdirectory/fold_1/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-512/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 36.859%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_512/fold_2/results/subdirectory/fold_2/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-512/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 16.096%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_512/fold_3/results/subdirectory/fold_3/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-512/fold-3/results/subdirectory/fold-3/nonorm/scores-dev' is 22.222%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_512/fold_4/results/subdirectory/fold_4/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-512/fold-4/results/subdirectory/fold-4/nonorm/scores-dev' is 29.412%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_512/fold_5/results/subdirectory/fold_5/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-512/fold-5/results/subdirectory/fold-5/nonorm/scores-dev' is 16.000%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_512/fold_6/results/subdirectory/fold_6/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-512/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 34.615%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_512/fold_7/results/subdirectory/fold_7/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-512/fold-7/results/subdirectory/fold-7/nonorm/scores-dev' is 32.727%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_512/fold_8/results/subdirectory/fold_8/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-512/fold-8/results/subdirectory/fold-8/nonorm/scores-dev' is 17.647%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_512/fold_9/results/subdirectory/fold_9/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-512/fold-9/results/subdirectory/fold-9/nonorm/scores-dev' is 24.000%
+(bob_py3) root@nathalia-Inspiron-15-7000-Gaming:/home/nathalia/Dropbox/Experimentos# evaluate.py --dev-files closed-set/closedset_512/fold_10/results/subdirectory/fold_10/nonorm/scores-dev -c 'EER'
+The EER of the development set of 'closed-set/closedset-512/fold-10/results/subdirectory/fold-10/nonorm/scores-dev' is 14.286%
+
+Média (ERR): 22,6217
+
+Precision: 0,839637188
+Recall: 0,708379178
+Accuracy:  36
+F1-Score: 0,699592413
+
+Precision and Recall
+(0.80328798185941042, 0.60436507936507944, 0.55047018807523018, None)
+Accuracy
+25
+F1-Score
+0.550470188075
+Confusion Matrix
+[[ 1  0  0  2  0  1 11]
+ [ 0  4  0  0  0  0  0]
+ [ 0  0  2  0  0  0  3]
+ [ 0  0  0  4  0  1  1]
+ [ 0  0  0  0  2  0  7]
+ [ 0  0  0  0  0  7  1]
+ [ 0  0  0  0  0  0  5]]
+
+Precision and Recall
+(0.85204081632653061, 0.82168989547038329, 0.80663208044160417, None)
+Accuracy
+62
+F1-Score
+0.806632080442
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  4  0  0  0  0  0]
+ [ 0  0  3  0  0  5  0]
+ [ 0  0  0  4  0  0  1]
+ [ 0  1  0  0  3  0  0]
+ [ 0  0  0  0  0  9  1]
+ [ 0  0  0  3  0  0 38]]
+
+Precision and Recall
+(0.82653061224489799, 0.6696428571428571, 0.72380952380952379, None)
+Accuracy
+38
+F1-Score
+0.72380952381
+Confusion Matrix
+[[ 1  0  0  0  0  0  1]
+ [ 0  4  0  0  0  0  0]
+ [ 0  0  3  0  0  0  0]
+ [ 0  0  0  5  0  0  5]
+ [ 0  0  0  0  3  0  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  0 10 22]]
+
+Precision and Recall
+(0.80612244897959184, 0.57521645021645018, 0.61567765567765564, None)
+Accuracy
+31
+F1-Score
+0.615677655678
+Confusion Matrix
+[[ 1  0  0  0  0  6  5]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  0  0  0  0]
+ [ 0  0  0  5  0  0  3]
+ [ 0  0  0  0  2  0  2]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  4 18]]
+
+Precision and Recall
+(0.92346938775510201, 0.83730158730158721, 0.82108843537414966, None)
+Accuracy
+41
+F1-Score
+0.821088435374
+Confusion Matrix
+[[ 1  0  0  0  0  0  8]
+ [ 0  3  0  1  0  0  0]
+ [ 0  0  2  0  0  0  0]
+ [ 0  0  0  3  0  0  0]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0 10  0]
+ [ 0  0  0  0  0  0 20]]
+
+Precision and Recall
+(0.80328798185941042, 0.60187074829931986, 0.54733165993670208, None)
+Accuracy
+25
+F1-Score
+0.547331659937
+Confusion Matrix
+[[ 1  0  0  2  0  1 10]
+ [ 0  4  0  0  0  0  0]
+ [ 0  0  2  0  0  0  3]
+ [ 0  0  0  4  0  1  1]
+ [ 0  0  0  0  2  0  8]
+ [ 0  0  0  0  0  7  1]
+ [ 0  0  0  0  0  0  5]]
+
+Precision and Recall
+(0.87755102040816335, 0.79591836734693877, 0.7795918367346939, None)
+Accuracy
+37
+F1-Score
+0.779591836735
+Confusion Matrix
+[[ 1  0  0  2  0  0  0]
+ [ 0  4  0  0  0  0  0]
+ [ 0  0  3  0  0  0  0]
+ [ 0  0  0  5  0  0 16]
+ [ 0  0  0  0  3  0  0]
+ [ 0  0  0  0  0  9  0]
+ [ 0  0  0  0  0  0 12]]
+
+Precision and Recall
+(0.86632653061224485, 0.74910714285714286, 0.75782312925170081, None)
+Accuracy
+41
+F1-Score
+0.757823129252
+Confusion Matrix
+[[ 1  0  0  0  0  1  0]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  0  0  3  0]
+ [ 0  0  0  5  0  0  0]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0  1  1]
+ [ 0  0  0  0  0  5 27]]
+
+Precision and Recall
+(0.67346938775510201, 0.5892857142857143, 0.53862433862433856, None)
+Accuracy
+22
+F1-Score
+0.538624338624
+Confusion Matrix
+[[ 1  0  0  0  0  0  1]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  0  0  0 14]
+ [ 0  0  0  1  0  0  0]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  3  0 10 13]]
+
+Precision and Recall
+(0.9642857142857143, 0.83939393939393947, 0.85487528344671193, None)
+Accuracy
+42
+F1-Score
+0.854875283447
+Confusion Matrix
+[[ 1  0  0  0  0  0  5]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  1  0  0  0  0]
+ [ 0  0  0  4  0  0  1]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0 10  1]
+ [ 0  0  0  0  0  0 21]]
+
+
+############ Recognition Rate for closedSet Gaussian N=1024
+
+The Recognition Rate of the development set of 'closed-set/closedset-1024/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 46.154%
+The Recognition Rate of the development set of 'closed-set/closedset-1024/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 80.822%
+The Recognition Rate of the development set of 'closed-set/closedset-1024/fold-3/results/subdirectory/fold-3/nonorm/scores-dev' is 70.370%
+The Recognition Rate of the development set of 'closed-set/closedset-1024/fold-4/results/subdirectory/fold-4/nonorm/scores-dev' is 50.980%
+The Recognition Rate of the development set of 'closed-set/closedset-1024/fold-5/results/subdirectory/fold-5/nonorm/scores-dev' is 64.000%
+The Recognition Rate of the development set of 'closed-set/closedset-1024/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 46.154%
+The Recognition Rate of the development set of 'closed-set/closedset-1024/fold-7/results/subdirectory/fold-7/nonorm/scores-dev' is 65.455%
+The Recognition Rate of the development set of 'closed-set/closedset-1024/fold-8/results/subdirectory/fold-8/nonorm/scores-dev' is 68.627%
+The Recognition Rate of the development set of 'closed-set/closedset-1024/fold-9/results/subdirectory/fold-9/nonorm/scores-dev' is 34.000%
+The Recognition Rate of the development set of 'closed-set/closedset-1024/fold-10/results/subdirectory/fold-10/nonorm/scores-dev' is 85.714%
+
+Média (RR): 61,2276
+
+The EER of the development set of 'closed-set/closedset-1024/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 48.077%
+The EER of the development set of 'closed-set/closedset-1024/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 17.808%
+The EER of the development set of 'closed-set/closedset-1024/fold-3/results/subdirectory/fold-3/nonorm/scores-dev' is 25.926%
+The EER of the development set of 'closed-set/closedset-1024/fold-4/results/subdirectory/fold-4/nonorm/scores-dev' is 33.333%
+The EER of the development set of 'closed-set/closedset-1024/fold-5/results/subdirectory/fold-5/nonorm/scores-dev' is 27.667%
+The EER of the development set of 'closed-set/closedset-1024/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 48.077%
+The EER of the development set of 'closed-set/closedset-1024/fold-7/results/subdirectory/fold-7/nonorm/scores-dev' is 32.727%
+The EER of the development set of 'closed-set/closedset-1024/fold-8/results/subdirectory/fold-8/nonorm/scores-dev' is 23.529%
+The EER of the development set of 'closed-set/closedset-1024/fold-9/results/subdirectory/fold-9/nonorm/scores-dev' is 44.000%
+The EER of the development set of 'closed-set/closedset-1024/fold-10/results/subdirectory/fold-10/nonorm/scores-dev' is 16.327%
+
+
+Média (ERR): 31,7471
+
+Precision: 0,813718821
+Recall: 0,69084833
+Accuracy: 33
+F1-Score: 0,65264385
+
+Precision and Recall
+(0.79818594104308382, 0.74965986394557826, 0.62132034632034638, None)
+Accuracy
+24
+F1-Score
+0.62132034632
+Confusion Matrix
+[[ 1  0  0  2  0  2 16]
+ [ 0  4  0  0  0  0  0]
+ [ 0  0  2  0  0  0  0]
+ [ 0  0  0  4  0  0  0]
+ [ 0  0  0  0  2  0  8]
+ [ 0  0  0  0  0  7  0]
+ [ 0  0  0  0  0  0  4]]
+
+Precision and Recall
+(0.76632653061224498, 0.71241496598639464, 0.62943722943722946, None)
+Accuracy
+59
+F1-Score
+0.629437229437
+Confusion Matrix
+[[ 1  0  0  1  0  1  0]
+ [ 0  1  0  0  0  0  0]
+ [ 0  0  3  0  0  4  0]
+ [ 0  0  0  4  0  0  0]
+ [ 0  4  0  0  3  0  1]
+ [ 0  0  0  0  0  9  1]
+ [ 0  0  0  2  0  0 38]]
+
+Precision and Recall
+(0.82653061224489799, 0.57809523809523811, 0.63560518547041445, None)
+Accuracy
+38
+F1-Score
+0.63560518547
+Confusion Matrix
+[[ 1  0  0  0  0  3  2]
+ [ 0  4  0  0  0  0  0]
+ [ 0  0  3  0  0  0  0]
+ [ 0  0  0  5  0  1  4]
+ [ 0  0  0  0  3  3  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  3 22]]
+
+Precision and Recall
+(0.78061224489795922, 0.53217120181405886, 0.55471036899608328, None)
+Accuracy
+26
+F1-Score
+0.554710368996
+Confusion Matrix
+[[ 1  0  0  0  0  5  8]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  0  0  0  0]
+ [ 0  0  0  5  0  0  4]
+ [ 0  0  0  0  2  2  3]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  3 13]]
+
+Precision and Recall
+(0.87755102040816335, 0.81746031746031744, 0.7609297970200225, None)
+Accuracy
+32
+F1-Score
+0.76092979702
+Confusion Matrix
+[[ 1  0  0  0  0  0 17]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  1  0  0  0]
+ [ 0  0  0  3  0  0  0]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0 10  0]
+ [ 0  0  0  0  0  0 11]]
+
+Precision and Recall
+(0.79818594104308382, 0.7525252525252526, 0.62508469791078503, None)
+Accuracy
+24
+F1-Score
+0.625084697911
+Confusion Matrix
+[[ 1  0  0  2  0  2 17]
+ [ 0  4  0  0  0  0  0]
+ [ 0  0  2  0  0  0  0]
+ [ 0  0  0  4  0  0  0]
+ [ 0  0  0  0  2  0  7]
+ [ 0  0  0  0  0  7  0]
+ [ 0  0  0  0  0  0  4]]
+
+Precision and Recall
+(0.84183673469387765, 0.73299319727891166, 0.70051020408163267, None)
+Accuracy
+36
+F1-Score
+0.700510204082
+Confusion Matrix
+[[ 1  1  0  0  0  0 13]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  3  1  0  0  0]
+ [ 0  0  0  5  0  0  2]
+ [ 0  0  0  1  3  0  1]
+ [ 0  0  0  0  0  9  0]
+ [ 0  0  0  0  0  0 12]]
+
+Precision and Recall
+(0.83571428571428563, 0.75, 0.73371271585557285, None)
+Accuracy
+35
+F1-Score
+0.733712715856
+Confusion Matrix
+[[ 1  0  0  0  0  9  2]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  0  0  0  0]
+ [ 0  0  0  5  0  0  0]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0  1  5]
+ [ 0  0  0  0  0  0 21]]
+
+Precision and Recall
+(0.64795918367346939, 0.45323129251700678, 0.42125040492387428, None)
+Accuracy
+17
+F1-Score
+0.421250404924
+Confusion Matrix
+[[ 1  0  0  0  0  0  2]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  0  0  0 14]
+ [ 0  0  0  1  0  0  0]
+ [ 0  0  0  0  2  0  4]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  3  0 10  8]]
+ 
+
+Precision and Recall
+(0.9642857142857143, 0.82993197278911557, 0.84387755102040807, None)
+Accuracy
+42
+F1-Score
+0.84387755102
+Confusion Matrix
+[[ 1  0  0  0  0  0  6]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  1  0  0  0  0]
+ [ 0  0  0  4  0  0  0]
+ [ 0  0  0  0  2  0  1]
+ [ 0  0  0  0  0 10  0]
+ [ 0  0  0  0  0  0 21]]
+
+
+#############################################################################
+### I Vector 128
+
+
+#100
+
+The Recognition Rate of the development set of 'closed-set/ivector/100/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 44.231%
+The Recognition Rate of the development set of 'closed-set/ivector/100/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 64.384%
+The Recognition Rate of the development set of 'closed-set/ivector/100/fold-3/results/subdirectory/fold-3/nonorm/scores-dev' is 66.667%
+The Recognition Rate of the development set of 'closed-set/ivector/100/fold-4/results/subdirectory/fold-4/nonorm/scores-dev' is 58.824%
+The Recognition Rate of the development set of 'closed-set/ivector/100/fold-5/results/subdirectory/fold-5/nonorm/scores-dev' is 46.000%
+The Recognition Rate of the development set of 'closed-set/ivector/100/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 44.231%
+The Recognition Rate of the development set of 'closed-set/ivector/100/fold-7/results/subdirectory/fold-7/nonorm/scores-dev' is 61.818%
+The Recognition Rate of the development set of 'closed-set/ivector/100/fold-8/results/subdirectory/fold-8/nonorm/scores-dev' is 58.824%
+The Recognition Rate of the development set of 'closed-set/ivector/100/fold-9/results/subdirectory/fold-9/nonorm/scores-dev' is 34.000%
+The Recognition Rate of the development set of 'closed-set/ivector/100/fold-10/results/subdirectory/fold-10/nonorm/scores-dev' is 65.306%
+
+Media: 54,4285
+
+The EER of the development set of 'closed-set/ivector/100/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 36.538%
+The EER of the development set of 'closed-set/ivector/100/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 17.466%
+The EER of the development set of 'closed-set/ivector/100/fold-3/results/subdirectory/fold-3/nonorm/scores-dev' is 24.537%
+The EER of the development set of 'closed-set/ivector/100/fold-4/results/subdirectory/fold-4/nonorm/scores-dev' is 27.778%
+The EER of the development set of 'closed-set/ivector/100/fold-5/results/subdirectory/fold-5/nonorm/scores-dev' is 24.000%
+The EER of the development set of 'closed-set/ivector/100/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 36.538%
+The EER of the development set of 'closed-set/ivector/100/fold-7/results/subdirectory/fold-7/nonorm/scores-dev' is 34.545%
+The EER of the development set of 'closed-set/ivector/100/fold-8/results/subdirectory/fold-8/nonorm/scores-dev' is 19.608%
+The EER of the development set of 'closed-set/ivector/100/fold-9/results/subdirectory/fold-9/nonorm/scores-dev' is 40.000%
+The EER of the development set of 'closed-set/ivector/100/fold-10/results/subdirectory/fold-10/nonorm/scores-dev' is 22.959%
+
+Media: 28,3969
+
+Precision and Recall
+(0.72675736961451243, 0.53589466089466087, 0.48120017237664298, None)
+Accuracy
+23
+F1-Score
+0.481200172377
+Confusion Matrix
+[[ 1  0  0  0  0  1 10]
+ [ 0  4  0  2  0  0  0]
+ [ 0  0  2  0  0  0  9]
+ [ 0  0  0  4  1  1  3]
+ [ 0  0  0  0  1  0  1]
+ [ 0  0  0  0  0  7  1]
+ [ 0  0  0  0  0  0  4]]
+
+Precision and Recall
+(0.84030612244897973, 0.76169637815600544, 0.74258503401360554, None)
+Accuracy
+47
+F1-Score
+0.742585034014
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  5  0  0  0  0  0]
+ [ 0  0  3  0  0  5 14]
+ [ 0  0  0  5  0  0  2]
+ [ 0  0  0  0  3  0  1]
+ [ 0  0  0  0  0  9  2]
+ [ 0  0  0  2  0  0 21]]
+
+Precision and Recall
+(0.81632653061224492, 0.63548752834467126, 0.69795918367346943, None)
+Accuracy
+36
+F1-Score
+0.697959183673
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  4  0  0  0  0  0]
+ [ 0  0  3  0  0  0  4]
+ [ 0  0  0  5  0  1  3]
+ [ 0  0  0  0  3  1  0]
+ [ 0  0  0  0  0  0  1]
+ [ 0  0  0  0  0  8 20]]
+
+Precision and Recall
+(0.80102040816326525, 0.45929705215419503, 0.53041788143828961, None)
+Accuracy
+30
+F1-Score
+0.530417881438
+Confusion Matrix
+[[ 1  0  0  0  0  4  0]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  0  0  2  1]
+ [ 0  0  0  5  0  0  4]
+ [ 0  0  0  0  2  0  6]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  4 17]]
+
+Precision and Recall
+(0.72278911564625847, 0.52451596023024594, 0.51296394710716964, None)
+Accuracy
+23
+F1-Score
+0.512963947107
+Confusion Matrix
+[[ 1  0  0  0  0  0  2]
+ [ 0  2  0  0  0  0  1]
+ [ 0  0  1  0  0  0 14]
+ [ 0  0  1  3  0  0  0]
+ [ 0  0  0  1  2  0  4]
+ [ 0  0  0  0  0 10  3]
+ [ 0  1  0  0  0  0  4]]
+
+Precision and Recall
+(0.72675736961451243, 0.54682539682539677, 0.489665096807954, None)
+Accuracy
+23
+F1-Score
+0.489665096808
+Confusion Matrix
+[[ 1  0  0  0  0  1 10]
+ [ 0  4  0  1  0  0  0]
+ [ 0  0  2  0  0  0 10]
+ [ 0  0  0  4  1  1  2]
+ [ 0  0  0  0  1  0  1]
+ [ 0  0  0  1  0  7  1]
+ [ 0  0  0  0  0  0  4]]
+
+Precision and Recall
+(0.77721088435374153, 0.58401360544217684, 0.60758051472337182, None)
+Accuracy
+34
+F1-Score
+0.607580514723
+Confusion Matrix
+[[ 1  0  0  1  0  0  1]
+ [ 0  4  0  0  0  0  3]
+ [ 0  0  3  0  0  0  2]
+ [ 0  0  0  5  1  0  9]
+ [ 0  0  0  1  1  0  0]
+ [ 0  0  0  0  1  9  2]
+ [ 0  0  0  0  0  0 11]]
+
+Precision and Recall
+(0.81020408163265301, 0.73484848484848497, 0.7472727272727272, None)
+Accuracy
+30
+F1-Score
+0.747272727273
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  0  0  3  1]
+ [ 0  0  0  5  0  0  0]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0  1 11]
+ [ 0  0  0  0  0  6 16]]
+
+Precision and Recall
+(0.63571428571428579, 0.41918767507002797, 0.37021124239169356, None)
+Accuracy
+17
+F1-Score
+0.370211242392
+Confusion Matrix
+[[ 1  0  0  0  0  3  2]
+ [ 0  3  0  1  0  0  0]
+ [ 0  0  2  0  0  0 15]
+ [ 0  0  0  0  0  1  1]
+ [ 0  0  0  0  2  0  3]
+ [ 0  0  0  0  0  2  0]
+ [ 0  0  0  3  0  4  7]]
+ 
+ Precision and Recall
+(0.77551020408163274, 0.58333333333333337, 0.60498866213151914, None)
+Accuracy
+32
+F1-Score
+0.604988662132
+Confusion Matrix
+[[ 0  0  0  0  0  0  0]
+ [ 0  3  0  0  0  0  1]
+ [ 1  0  1  0  0  0  1]
+ [ 0  0  0  4  0  0 10]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0 10  4]
+ [ 0  0  0  0  0  0 12]]
+
+#150
+
+The Recognition Rate of the development set of 'closed-set/ivector/150/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 48.077%
+The Recognition Rate of the development set of 'closed-set/ivector/150/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 64.384%
+The Recognition Rate of the development set of 'closed-set/ivector/150/fold-3/results/subdirectory/fold-3/nonorm/scores-dev' is 68.519%
+The Recognition Rate of the development set of 'closed-set/ivector/150/fold-4/results/subdirectory/fold-4/nonorm/scores-dev' is 54.902%
+The Recognition Rate of the development set of 'closed-set/ivector/150/fold-5/results/subdirectory/fold-5/nonorm/scores-dev' is 64.000%
+The Recognition Rate of the development set of 'closed-set/ivector/150/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 46.154%
+The Recognition Rate of the development set of 'closed-set/ivector/150/fold-7/results/subdirectory/fold-7/nonorm/scores-dev' is 63.636%
+The Recognition Rate of the development set of 'closed-set/ivector/150/fold-8/results/subdirectory/fold-8/nonorm/scores-dev' is 58.824%
+The Recognition Rate of the development set of 'closed-set/ivector/150/fold-9/results/subdirectory/fold-9/nonorm/scores-dev' is 36.000%
+The Recognition Rate of the development set of 'closed-set/ivector/150/fold-10/results/subdirectory/fold-10/nonorm/scores-dev' is 61.224%
+
+Media: 56,572
+
+The EER of the development set of 'closed-set/ivector/150/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 36.538%
+The EER of the development set of 'closed-set/ivector/150/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 17.580%
+The EER of the development set of 'closed-set/ivector/150/fold-3/results/subdirectory/fold-3/nonorm/scores-dev' is 24.074%
+The EER of the development set of 'closed-set/ivector/150/fold-4/results/subdirectory/fold-4/nonorm/scores-dev' is 31.373%
+The EER of the development set of 'closed-set/ivector/150/fold-5/results/subdirectory/fold-5/nonorm/scores-dev' is 22.000%
+The EER of the development set of 'closed-set/ivector/150/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 38.462%
+The EER of the development set of 'closed-set/ivector/150/fold-7/results/subdirectory/fold-7/nonorm/scores-dev' is 32.727%
+The EER of the development set of 'closed-set/ivector/150/fold-8/results/subdirectory/fold-8/nonorm/scores-dev' is 21.569%
+The EER of the development set of 'closed-set/ivector/150/fold-9/results/subdirectory/fold-9/nonorm/scores-dev' is 40.000%
+The EER of the development set of 'closed-set/ivector/150/fold-10/results/subdirectory/fold-10/nonorm/scores-dev' is 24.490%
+
+Media: 28,8813
+
+Precision and Recall
+(0.7369614512471655, 0.53130797773654914, 0.49517345399698343, None)
+Accuracy
+25
+F1-Score
+0.495173453997
+Confusion Matrix
+[[1 0 0 1 0 0 9]
+ [0 4 0 0 1 1 0]
+ [0 0 2 1 0 1 7]
+ [0 0 0 4 0 0 3]
+ [0 0 0 0 1 0 2]
+ [0 0 0 0 0 7 1]
+ [0 0 0 0 0 0 6]]
+
+Precision and Recall
+(0.84030612244897973, 0.74986891989997573, 0.73721088435374149, None)
+Accuracy
+47
+F1-Score
+0.737210884354
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  5  0  0  0  0  0]
+ [ 0  0  3  0  0  5 13]
+ [ 0  0  0  5  0  0  3]
+ [ 0  0  0  0  3  0  1]
+ [ 0  0  0  0  0  9  2]
+ [ 0  0  0  2  0  0 21]]
+ 
+Precision and Recall
+(0.8214285714285714, 0.62539682539682551, 0.69242424242424239, None)
+Accuracy
+37
+F1-Score
+0.692424242424
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  4  0  0  0  0  0]
+ [ 0  0  3  0  0  0  3]
+ [ 0  0  0  5  0  2  3]
+ [ 0  0  0  0  3  2  0]
+ [ 0  0  0  0  0  0  1]
+ [ 0  0  0  0  0  6 21]]
+ 
+ Precision and Recall
+/root/anaconda3/envs/bob_py3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1115: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+(0.79081632653061218, 0.42006802721088438, 0.50509036566571708, None)
+Accuracy
+28
+F1-Score
+/root/anaconda3/envs/bob_py3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1115: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+0.505090365666
+Confusion Matrix
+[[ 1  0  0  0  0  2  0]
+ [ 0  3  0  0  0  0  1]
+ [ 0  0  2  0  0  3  1]
+ [ 0  0  0  5  0  2  7]
+ [ 0  0  0  0  2  0  4]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  3 15]]
+
+Precision and Recall
+(0.87755102040816335, 0.56875901875901869, 0.60974501688787386, None)
+Accuracy
+32
+F1-Score
+0.609745016888
+Confusion Matrix
+[[ 1  0  0  1  0  0  2]
+ [ 0  3  0  0  0  0  2]
+ [ 0  0  2  0  0  0  7]
+ [ 0  0  0  3  0  0  2]
+ [ 0  0  0  0  2  0  3]
+ [ 0  0  0  0  0 10  1]
+ [ 0  0  0  0  0  0 11]]
+
+Precision and Recall
+(0.73185941043083891, 0.53429705215419498, 0.49127343244990307, None)
+Accuracy
+24
+F1-Score
+0.49127343245
+Confusion Matrix
+[[ 1  0  0  1  0  0 12]
+ [ 0  4  0  0  1  1  0]
+ [ 0  0  2  1  0  1  5]
+ [ 0  0  0  4  0  0  3]
+ [ 0  0  0  0  1  0  2]
+ [ 0  0  0  0  0  7  1]
+ [ 0  0  0  0  0  0  5]]
+
+Precision and Recall
+(0.78231292517006801, 0.57404024546881693, 0.59776334776334761, None)
+Accuracy
+35
+F1-Score
+0.597763347763
+Confusion Matrix
+[[ 1  0  0  2  0  0  2]
+ [ 0  4  0  0  0  0  3]
+ [ 0  0  3  0  0  0  2]
+ [ 0  0  0  5  0  0  6]
+ [ 0  0  0  0  1  0  1]
+ [ 0  0  0  0  2  9  2]
+ [ 0  0  0  0  0  0 12]]
+
+Precision and Recall
+(0.81020408163265301, 0.71842650103519667, 0.7488813707301103, None)
+Accuracy
+30
+F1-Score
+0.74888137073
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  3  0  0  0  0  1]
+ [ 0  0  2  0  0  2  0]
+ [ 0  0  0  5  0  0  0]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0  1 11]
+ [ 0  0  0  0  0  7 16]]
+
+Precision and Recall
+/root/anaconda3/envs/bob_py3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1115: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+(0.64081632653061227, 0.42857142857142855, 0.38074623788909501, None)
+Accuracy
+18
+F1-Score
+/root/anaconda3/envs/bob_py3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1115: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+0.380746237889
+Confusion Matrix
+[[ 1  0  0  0  0  3  4]
+ [ 0  3  0  1  0  0  0]
+ [ 0  0  2  0  0  0 14]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  2  0  2]
+ [ 0  0  0  0  0  2  0]
+ [ 0  0  0  3  0  5  8]]
+
+Precision and Recall
+/root/anaconda3/envs/bob_py3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1115: UndefinedMetricWarning: Recall and F-score are ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+(0.76530612244897955, 0.5167451596023025, 0.55670057496682879, None)
+Accuracy
+30
+F1-Score
+/root/anaconda3/envs/bob_py3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1115: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 in labels with no true samples.
+  'recall', 'true', average, warn_for)
+0.556700574967
+Confusion Matrix
+[[ 0  0  0  0  0  0  0]
+ [ 0  3  0  0  0  0  4]
+ [ 0  0  1  0  0  0  1]
+ [ 0  0  0  4  0  0  9]
+ [ 0  0  0  0  2  0  1]
+ [ 1  0  0  0  0 10  3]
+ [ 0  0  0  0  0  0 10]]
+
+
+#200
+
+The Recognition Rate of the development set of 'closed-set/ivector/200/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 48.077%
+The Recognition Rate of the development set of 'closed-set/ivector/200/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 65.753%
+The Recognition Rate of the development set of 'closed-set/ivector/200/fold-3/results/subdirectory/fold-3/nonorm/scores-dev' is 68.519%
+The Recognition Rate of the development set of 'closed-set/ivector/200/fold-4/results/subdirectory/fold-4/nonorm/scores-dev' is 56.863%
+The Recognition Rate of the development set of 'closed-set/ivector/200/fold-5/results/subdirectory/fold-5/nonorm/scores-dev' is 58.000%
+The Recognition Rate of the development set of 'closed-set/ivector/200/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 53.846%
+The Recognition Rate of the development set of 'closed-set/ivector/200/fold-7/results/subdirectory/fold-7/nonorm/scores-dev' is 60.000%
+The Recognition Rate of the development set of 'closed-set/ivector/200/fold-8/results/subdirectory/fold-8/nonorm/scores-dev' is 58.824%
+The Recognition Rate of the development set of 'closed-set/ivector/200/fold-9/results/subdirectory/fold-9/nonorm/scores-dev' is 36.000%
+The Recognition Rate of the development set of 'closed-set/ivector/200/fold-10/results/subdirectory/fold-10/nonorm/scores-dev' is 61.224%
+
+Media: 56,7106
+
+The EER of the development set of 'closed-set/ivector/200/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 36.538%
+The EER of the development set of 'closed-set/ivector/200/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 17.808%
+The EER of the development set of 'closed-set/ivector/200/fold-3/results/subdirectory/fold-3/nonorm/scores-dev' is 25.772%
+The EER of the development set of 'closed-set/ivector/200/fold-4/results/subdirectory/fold-4/nonorm/scores-dev' is 33.333%
+The EER of the development set of 'closed-set/ivector/200/fold-5/results/subdirectory/fold-5/nonorm/scores-dev' is 22.000%
+The EER of the development set of 'closed-set/ivector/200/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 34.615%
+The EER of the development set of 'closed-set/ivector/200/fold-7/results/subdirectory/fold-7/nonorm/scores-dev' is 30.909%
+The EER of the development set of 'closed-set/ivector/200/fold-8/results/subdirectory/fold-8/nonorm/scores-dev' is 21.569%
+The EER of the development set of 'closed-set/ivector/200/fold-9/results/subdirectory/fold-9/nonorm/scores-dev' is 42.000%
+The EER of the development set of 'closed-set/ivector/200/fold-10/results/subdirectory/fold-10/nonorm/scores-dev' is 30.272%
+
+Media: 29,4816
+
+Precision and Recall
+(0.7369614512471655, 0.54642857142857149, 0.50421835400826998, None)
+Accuracy
+25
+F1-Score
+0.504218354008
+Confusion Matrix
+[[ 1  0  0  1  0  0  3]
+ [ 0  4  0  0  0  0  1]
+ [ 0  0  2  1  0  2 11]
+ [ 0  0  0  4  1  0  3]
+ [ 0  0  0  0  1  0  4]
+ [ 0  0  0  0  0  7  0]
+ [ 0  0  0  0  0  0  6]]
+
+Precision and Recall
+(0.84387755102040818, 0.75031149301825995, 0.74476951619808762, None)
+Accuracy
+48
+F1-Score
+0.744769516198
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  5  0  0  0  0  0]
+ [ 0  0  3  0  0  4 12]
+ [ 0  0  0  5  0  0  2]
+ [ 0  0  0  0  3  0  1]
+ [ 0  0  0  0  0  9  3]
+ [ 0  0  0  2  0  1 22]]
+ 
+ Precision and Recall
+(0.8214285714285714, 0.6785714285714286, 0.72619047619047616, None)
+Accuracy
+37
+F1-Score
+0.72619047619
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  4  0  0  0  0  0]
+ [ 0  0  3  0  0  0  3]
+ [ 0  0  0  5  0  3  2]
+ [ 0  0  0  0  3  0  0]
+ [ 0  0  0  0  0  0  2]
+ [ 0  0  0  0  0  7 21]]
+
+Precision and Recall
+(0.79591836734693877, 0.41640898783755925, 0.49524055999211286, None)
+Accuracy
+29
+F1-Score
+0.495240559992
+Confusion Matrix
+[[ 1  0  0  0  0  3  0]
+ [ 0  3  0  0  0  0  1]
+ [ 0  0  2  0  0  3  2]
+ [ 0  0  0  5  0  2  4]
+ [ 0  0  0  0  2  0  5]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  2 16]]
+ Precision and Recall
+(0.79591836734693877, 0.55158730158730152, 0.58050610907753775, None)
+Accuracy
+29
+F1-Score
+0.580506109078
+Confusion Matrix
+[[ 1  0  0  0  0  0  2]
+ [ 0  3  0  0  0  0  1]
+ [ 0  0  1  0  0  0  8]
+ [ 0  0  0  3  0  0  2]
+ [ 0  0  0  0  2  0  3]
+ [ 0  0  1  1  0 10  3]
+ [ 0  0  0  0  0  0  9]]
+ 
+ Precision and Recall
+(0.77097505668934241, 0.56723356009070292, 0.54920634920634925, None)
+Accuracy
+28
+F1-Score
+0.549206349206
+Confusion Matrix
+[[ 1  0  0  0  0  0  3]
+ [ 0  4  0  0  1  0  0]
+ [ 0  0  2  0  0  2 10]
+ [ 0  0  0  5  0  0  1]
+ [ 0  0  0  0  1  0  5]
+ [ 0  0  0  1  0  7  1]
+ [ 0  0  0  0  0  0  8]]
+ 
+ Precision and Recall
+(0.77210884353741494, 0.53065862708719858, 0.55804656790946039, None)
+Accuracy
+33
+F1-Score
+0.558046567909
+Confusion Matrix
+[[ 1  0  0  1  0  0  3]
+ [ 0  4  0  0  0  0  3]
+ [ 0  0  3  0  0  0  5]
+ [ 0  0  0  5  0  0  5]
+ [ 0  0  0  1  1  0  2]
+ [ 0  0  0  0  2  9  0]
+ [ 0  0  0  0  0  0 10]]
+
+Precision and Recall
+(0.81020408163265301, 0.73299319727891155, 0.74120210854904733, None)
+Accuracy
+30
+F1-Score
+0.741202108549
+Confusion Matrix
+[[ 1  0  0  0  0  0  0]
+ [ 0  3  0  0  0  0  0]
+ [ 0  0  2  0  0  4  1]
+ [ 0  0  0  5  0  0  0]
+ [ 0  0  0  0  2  0  0]
+ [ 0  0  0  0  0  1 11]
+ [ 0  0  0  0  0  5 16]]
+
+Precision and Recall
+(0.6316326530612244, 0.44150326797385614, 0.37699443413729122, None)
+Accuracy
+18
+F1-Score
+0.376994434137
+Confusion Matrix
+[[ 1  0  0  0  0  3  1]
+ [ 0  3  0  1  0  0  0]
+ [ 0  0  2  0  0  0 16]
+ [ 0  0  0  0  0  1  0]
+ [ 0  0  0  0  2  0  2]
+ [ 0  0  0  0  0  1  0]
+ [ 0  0  0  3  0  5  9]]
+
+Precision and Recall
+(0.76530612244897955, 0.52619047619047621, 0.55505809979494192, None)
+Accuracy
+30
+F1-Score
+0.555058099795
+Confusion Matrix
+[[ 0  0  0  0  0  0  0]
+ [ 0  3  0  0  0  0  2]
+ [ 1  0  1  0  0  0  1]
+ [ 0  0  0  4  0  0 12]
+ [ 0  0  0  0  2  0  1]
+ [ 0  0  0  0  0 10  2]
+ [ 0  0  0  0  0  0 10]]
+
+ 

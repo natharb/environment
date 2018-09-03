@@ -1,0 +1,28 @@
+#!/bin/sh
+
+verify.py ivector_T100_fold3.py database_ivector_T100_fold3.py
+verify.py ivector_T100_fold4.py database_ivector_T100_fold4.py
+verify.py ivector_T100_fold5.py database_ivector_T100_fold5.py
+verify.py ivector_T100_fold6.py database_ivector_T100_fold6.py
+verify.py ivector_T100_fold7.py database_ivector_T100_fold7.py
+verify.py ivector_T100_fold8.py database_ivector_T100_fold8.py
+verify.py ivector_T100_fold9.py database_ivector_T100_fold9.py
+verify.py ivector_T100_fold10.py database_ivector_T100_fold10.py
+verify.py ivector_T150_fold2.py database_ivector_T150_fold2.py
+verify.py ivector_T150_fold3.py database_ivector_T150_fold3.py
+verify.py ivector_T150_fold4.py database_ivector_T150_fold4.py
+verify.py ivector_T150_fold5.py database_ivector_T150_fold5.py
+verify.py ivector_T150_fold6.py database_ivector_T150_fold6.py
+verify.py ivector_T150_fold7.py database_ivector_T150_fold7.py
+verify.py ivector_T150_fold8.py database_ivector_T150_fold8.py
+verify.py ivector_T150_fold9.py database_ivector_T150_fold9.py
+verify.py ivector_T150_fold10.py database_ivector_T150_fold10.py
+verify.py ivector_T200_fold2.py database_ivector_T200_fold2.py
+verify.py ivector_T200_fold3.py database_ivector_T200_fold3.py
+verify.py ivector_T200_fold4.py database_ivector_T200_fold4.py
+verify.py ivector_T200_fold5.py database_ivector_T200_fold5.py
+verify.py ivector_T200_fold6.py database_ivector_T200_fold6.py
+verify.py ivector_T200_fold7.py database_ivector_T200_fold7.py
+verify.py ivector_T200_fold8.py database_ivector_T200_fold8.py
+verify.py ivector_T200_fold9.py database_ivector_T200_fold9.py
+verify.py ivector_T200_fold10.py database_ivector_T200_fold10.py

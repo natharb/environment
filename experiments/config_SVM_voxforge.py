@@ -1,3 +1,8 @@
+#!/usr/bin/env python
+# vim: set fileencoding=utf-8 :
+#Nathália Alves Rocha Batista (nathbapt@decom.fee.unicamp.br)
+
+
 import sys
 sys.path.insert(0, '.')
 
@@ -6,12 +11,12 @@ import bob.bio.gmm
 import numpy
 import scipy.spatial
 
-temp_directory = './vox-forge-test'
-result_directory = './vox-forge-test'
+temp_directory = './vox-forge-test/temp/'
+result_directory = './vox-forge-test/result/'
 sub_directory = 'subdirectory'
 
 #database = 'database.py'
-database = 'database_voxforge.py'
+database = 'voxforge'
 
 groups = ['dev']
 #groups = ['dev', 'eval']

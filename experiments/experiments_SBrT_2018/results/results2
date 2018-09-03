@@ -1,0 +1,956 @@
+#Crossdataset braccent_cfpb 
+
+# GMM
+
+The EER of the development set of 'Resultados2/SOTAQUES/results-gmm/512/subdirectory/crossdataset/nonorm/scores-dev' is 37.239%
+The EER of the development set of 'Resultados2/SOTAQUES/results-gmm/1024/subdirectory/crossdataset/nonorm/scores-dev' is 35.795%
+The EER of the development set of 'Resultados2/SOTAQUES/results-gmm/2048/subdirectory/crossdataset/nonorm/scores-dev' is 36.437%
+
+The Recognition Rate of the development set of 'Resultados2/SOTAQUES/results-gmm/512/subdirectory/crossdataset/nonorm/scores-dev' is 33.226%
+The Recognition Rate of the development set of 'Resultados2/SOTAQUES/results-gmm/1024/subdirectory/crossdataset/nonorm/scores-dev' is 34.992%
+The Recognition Rate of the development set of 'Resultados2/SOTAQUES/results-gmm/2048/subdirectory/crossdataset/nonorm/scores-dev' is 37.560%
+
+
+Precision and Recall
+(0.33226324237560195, 0.33226324237560195, 0.33226324237560195, None)
+Accuracy
+207
+F1-Score
+0.332263242376
+Confusion Matrix
+[[  3   3   0  16   3  73  84]
+ [  1   7   0   6   3   0  11]
+ [  0   0   0   0   0   0   0]
+ [  0   4   1   5   0   4  33]
+ [  0   0   0   0   0   4   3]
+ [  1   0   0   0   0   1   5]
+ [ 14  11  12  69  13  42 191]]
+
+Precision and Recall
+(0.34991974317817015, 0.34991974317817015, 0.34991974317817015, None)
+Accuracy
+218
+F1-Score
+0.349919743178
+Confusion Matrix
+[[  2   0   0  10   0  68  78]
+ [  0   6   0   5   2   0   8]
+ [  0   0   0   0   0   0   0]
+ [  0   5   0   3   0   0  31]
+ [  0   0   0   0   0   1   0]
+ [  0   2   0   0   0   0   3]
+ [ 17  12  13  78  17  55 207]]
+
+Precision and Recall
+(0.3756019261637239, 0.3756019261637239, 0.3756019261637239, None)
+Accuracy
+234
+F1-Score
+0.375601926164
+Confusion Matrix
+[[  1   2   0   8   0  58  62]
+ [  0   4   0   4   3   1   7]
+ [  0   0   0   0   0   0   0]
+ [  0   5   0   6   0   0  34]
+ [  0   0   0   2   0   4   0]
+ [  1   0   0   0   0   1   2]
+ [ 17  14  13  76  16  60 222]]
+
+# iVector
+
+#T100
+The Recognition Rate of the development set of 'Resultados2/SOTAQUES/crossdataset-braccent-cfpb-ivector/2048-T100/subdirectory/crossdataset/nonorm/scores-dev' is 39.647%
+The EER of the development set of 'Resultados2/SOTAQUES/crossdataset-braccent-cfpb-ivector/2048-T100/subdirectory/crossdataset/nonorm/scores-dev' is 39.165%
+
+Precision and Recall
+(0.39646869983948635, 0.39646869983948635, 0.39646869983948635, None)
+Accuracy
+247
+F1-Score
+0.396468699839
+Confusion Matrix
+[[  1   0   0   5   2  68  43]
+ [  0   0   0   3   0   1   2]
+ [  0   0   0   1   0   0   0]
+ [  0   0   0   3   0   2  17]
+ [  0   0   0   0   0   0   0]
+ [  0   2   0   7   0   0  22]
+ [ 18  23  13  77  17  53 243]]
+
+#T150
+The Recognition Rate of the development set of 'Resultados2/SOTAQUES/crossdataset-braccent-cfpb-ivector/2048-T150/subdirectory/crossdataset/nonorm/scores-dev' is 36.276%
+The EER of the development set of 'Resultados2/SOTAQUES/crossdataset-braccent-cfpb-ivector/2048-T150/subdirectory/crossdataset/nonorm/scores-dev' is 42.349%
+Precision and Recall
+(0.36276083467094705, 0.36276083467094705, 0.36276083467094705, None)
+Accuracy
+226
+F1-Score
+0.362760834671
+Confusion Matrix
+[[  5   1   0  13   2  73  65]
+ [  0   2   0   3   1   1   6]
+ [  0   0   0   1   0   0   0]
+ [  0   1   0   7   0   1  35]
+ [  0   0   0   0   0   0   2]
+ [  0   4   0   5   0   1   8]
+ [ 14  17  13  67  16  48 211]]
+
+#T200
+The Recognition Rate of the development set of 'Resultados2/SOTAQUES/crossdataset-braccent-cfpb-ivector/2048-T200/subdirectory/crossdataset/nonorm/scores-dev' is 35.152%
+The EER of the development set of 'Resultados2/SOTAQUES/crossdataset-braccent-cfpb-ivector/2048-T200/subdirectory/crossdataset/nonorm/scores-dev' is 42.416%
+ Precision and Recall
+(0.35152487961476725, 0.35152487961476725, 0.35152487961476725, None)
+Accuracy
+219
+F1-Score
+0.351524879615
+Confusion Matrix
+[[  4   2   0   8   4  70  70]
+ [  0   2   0   5   1   0   4]
+ [  0   0   0   1   0   0   0]
+ [  0   3   0   8   0   6  40]
+ [  0   0   0   0   0   0   1]
+ [  0   1   0   6   0   1   8]
+ [ 15  17  13  68  14  47 204]]
+
+
+#Crossdataset ynogutti_cfpb
+
+#GMM
+
+The Recognition Rate of the development set of 'crossdataset-ynogutti-cfpb/512/results/subdirectory/crossdataset/nonorm/scores-dev' is 32.306%
+The Recognition Rate of the development set of 'crossdataset-ynogutti-cfpb/1024/results/subdirectory/crossdataset/nonorm/scores-dev' is 34.486%
+The Recognition Rate of the development set of 'crossdataset-ynogutti-cfpb/2048/results/subdirectory/crossdataset/nonorm/scores-dev' is 36.241%
+
+The EER of the development set of 'crossdataset-ynogutti-cfpb/512/results/subdirectory/crossdataset/nonorm/scores-dev' is 43.058%
+The EER of the development set of 'crossdataset-ynogutti-cfpb/1024/results/subdirectory/crossdataset/nonorm/scores-dev' is 42.500%
+The EER of the development set of 'crossdataset-ynogutti-cfpb/2048/results/subdirectory/crossdataset/nonorm/scores-dev' is 42.199%
+
+Precision and Recall
+(0.32305764411027571, 0.32305764411027571, 0.32305764411027571, None)
+Accuracy
+1289
+F1-Score
+0.32305764411
+Confusion Matrix
+[[  28   12   42   84  527]
+ [   3   18    5    9  112]
+ [  10  118  194   85  666]
+ [  15   23   52   40  567]
+ [  21  138  181   31 1009]]
+ 
+ Precision and Recall
+(0.3448621553884712, 0.3448621553884712, 0.3448621553884712, None)
+Accuracy
+1376
+F1-Score
+0.344862155388
+Confusion Matrix
+[[  21   16   37   81  473]
+ [   3   10    4    7   87]
+ [  10  125  201   81  687]
+ [   9   19   34   43  533]
+ [  34  139  198   37 1101]]
+
+Precision and Recall
+(0.36240601503759401, 0.36240601503759401, 0.36240601503759395, None)
+Accuracy
+1446
+F1-Score
+0.362406015038
+Confusion Matrix
+[[  17   15   28   70  416]
+ [   3    9    2    3   66]
+ [  10  122  191   83  698]
+ [   8   16   35   43  515]
+ [  39  147  218   50 1186]]
+
+
+#i-Vector
+
+#T100
+
+The EER of the development set of 'Resultados2/SOTAQUES/crossdataset-ynogutti-cfpb-ivector/2048-T100/subdirectory/crossdataset/nonorm/scores-dev' is 46.645%
+The Recognition Rate of the development set of 'Resultados2/SOTAQUES/crossdataset-ynogutti-cfpb-ivector/2048-T100/subdirectory/crossdataset/nonorm/scores-dev' is 24.311%
+
+Precision and Recall
+(0.24310776942355888, 0.24310776942355888, 0.24310776942355888, None)
+Accuracy
+970
+F1-Score
+0.243107769424
+Confusion Matrix
+[[ 32  18  95  55 542]
+ [ 15  89  60  62 628]
+ [ 12 105 181  72 647]
+ [  5   9  36  50 446]
+ [ 13  88 102  10 618]]
+
+#T150
+
+The EER of the development set of 'Resultados2/SOTAQUES/crossdataset-ynogutti-cfpb-ivector/2048-T150/subdirectory/crossdataset/nonorm/scores-dev' is 46.817%
+The Recognition Rate of the development set of 'Resultados2/SOTAQUES/crossdataset-ynogutti-cfpb-ivector/2048-T150/subdirectory/crossdataset/nonorm/scores-dev' is 24.436%
+
+Precision and Recall
+(0.24436090225563908, 0.24436090225563908, 0.24436090225563908, None)
+Accuracy
+975
+F1-Score
+0.244360902256
+Confusion Matrix
+[[ 20  20  90  70 605]
+ [ 18  94  49  50 570]
+ [ 16 111 198  66 689]
+ [  4  14  38  50 404]
+ [ 19  70  99  13 613]]
+
+#T200
+
+
+
+####################################################################################################
+
+#Closedset - CFPB
+
+The Recognition Rate of the development set of 'closedset-cfpb/256/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 35.294%
+The Recognition Rate of the development set of 'closedset-cfpb/256/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 34.653%
+The EER of the development set of 'closedset-cfpb/256/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 35.294%
+The EER of the development set of 'closedset-cfpb/256/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 34.653%
+
+
+#256: RR = 34,9735%
+#256: EER = 34,9735%
+
+Precision and Recall
+(0.35294117647058826, 0.35294117647058826, 0.35294117647058826, None)
+Accuracy
+36
+F1-Score
+0.352941176471
+Confusion Matrix
+[[ 0  0  0  1  1  2  1]
+ [ 1  0  0  3  0  1  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0 23  6  0  6]
+ [ 0  0  1  3  1  2  5]
+ [ 3  2  0  4  4  2  8]
+ [ 2  3  0  4  0  3 10]]
+
+Precision and Recall
+(0.34653465346534651, 0.34653465346534651, 0.34653465346534651, None)
+Accuracy
+35
+F1-Score
+0.346534653465
+Confusion Matrix
+[[ 0  0  0  0  0  0  0]
+ [ 1  1  0  1  0  0  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0 15  6  5  6]
+ [ 0  0  0  4  1  0  5]
+ [ 0  1  1  0  1  0  1]
+ [ 4  3  0 18  4  5 18]]
+ 
+ #Media
+ 
+ (0,349737915)
+ F1-Score: 35,5
+ 
+[[ 0  0  0  1  0  1  0]
+ [ 1  1  0  2  0  0  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0 19  6  2  6]
+ [ 0  0  1  3  1  1  5]
+ [ 3  1  1  2  2  1  4]
+ [ 3  2  0 11  2  4 14]]
+ 
+ 
+####################################################################################################
+
+
+The EER of the development set of 'closedset-cfpb/512/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 34.477%
+The EER of the development set of 'closedset-cfpb/512/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 32.673%
+The Recognition Rate of the development set of 'closedset-cfpb/512/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 34.314%
+The Recognition Rate of the development set of 'closedset-cfpb/512/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 40.594%
+
+#512: EER = 33,575%
+#512: RR = 37,454%
+
+Precision and Recall
+(0.34313725490196079, 0.34313725490196079, 0.34313725490196079, None)
+Accuracy
+35
+F1-Score
+0.343137254902
+Confusion Matrix
+[[ 0  0  0  1  0  1  1]
+ [ 1  0  0  2  0  1  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  1  0 24  6  1  8]
+ [ 0  0  1  3  0  2  6]
+ [ 3  1  0  4  3  2  6]
+ [ 2  3  0  4  3  3  9]]
+ 
+ Precision and Recall
+(0.40594059405940597, 0.40594059405940597, 0.40594059405940597, None)
+Accuracy
+41
+F1-Score
+0.405940594059
+Confusion Matrix
+[[ 0  0  0  0  0  0  0]
+ [ 0  1  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0 19  6  5  6]
+ [ 0  0  0  2  1  0  4]
+ [ 0  0  1  0  1  0  0]
+ [ 5  4  0 17  4  5 20]]
+
+
+ #Media 
+ (0,374538924)
+ F1-Score: 38
+ 
+[[ 0  0  0  1  0  1  0]
+ [ 1  1  0  2  0  0  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0 19  6  2  6]
+ [ 0  0  1  3  1  1  5]
+ [ 2  1  1  2  2  1  4]
+ [ 4  2  0 11  2  4 14]]
+ 
+####################################################################################################
+
+The Recognition Rate of the development set of 'closedset-cfpb/1024/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 38.235%
+The Recognition Rate of the development set of 'closedset-cfpb/1024/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 41.584%
+The EER of the development set of 'closedset-cfpb/1024/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 33.333%
+The EER of the development set of 'closedset-cfpb/1024/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 32.591%
+
+#1024 EER = 32,962%
+#1024 RR = 40%
+
+ Precision and Recall
+(0.41584158415841582, 0.41584158415841582, 0.41584158415841582, None)
+Accuracy
+42
+F1-Score0.415841584158
+0.415841584158
+Confusion Matrix
+[[ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  1  0 21  7  5  6]
+ [ 0  0  0  1  1  0  4]
+ [ 0  0  1  0  1  0  0]
+ [ 5  4  0 16  3  5 20]]
+
+ 
+ Precision and Recall
+(0.38235294117647056, 0.38235294117647056, 0.38235294117647062, None)
+Accuracy
+39
+F1-Score
+0.382352941176
+Confusion Matrix
+[[ 0  0  0  0  0  1  1]
+ [ 1  0  0  0  0  1  0]
+ [ 0  0  0  0  0  0  0]
+ [ 0  1  0 26  6  1  6]
+ [ 0  0  1  3  0  2  6]
+ [ 3  1  0  5  2  2  6]
+ [ 2  3  0  4  4  3 11]]
+
+
+0,399097263
+40
+
+
+#Crossadataset Ynogutti braccent
+#GMM
+
+The EER of the development set of 'crossdataset-ynogutti-braccent/64/results/subdirectory/crossdataset/nonorm/scores-dev' is 41.756%
+The Recognition Rate of the development set of 'crossdataset-ynogutti-braccent/64/results/subdirectory/crossdataset/nonorm/scores-dev' is 24.086%
+
+Precision and Recall
+(0.24086021505376345, 0.24086021505376345, 0.24086021505376345, None)
+Accuracy
+1344
+F1-Score
+0.240860215054
+Confusion Matrix
+[[  65  147  258  101 1625]
+ [   1    0    2    0   11]
+ [  64    2  113    7  874]
+ [  24    6   37    5  558]
+ [  15  154  214  136 1161]]
+
+The EER of the development set of 'crossdataset-ynogutti-braccent/128/results/subdirectory/crossdataset/nonorm/scores-dev' is 41.649%
+The Recognition Rate of the development set of 'crossdataset-ynogutti-braccent/128/results/subdirectory/crossdataset/nonorm/scores-dev' is 28.280%
+
+Precision and Recall
+(0.28279569892473116, 0.28279569892473116, 0.28279569892473116, None)
+Accuracy
+1578
+F1-Score
+0.282795698925
+Confusion Matrix
+[[  60  102  193   50 1410]
+ [   1    0    2    0   18]
+ [  68    1  117    8  890]
+ [  19    5   37    4  514]
+ [  21  201  275  187 1397]]
+
+
+The EER of the development set of 'crossdataset-ynogutti-braccent/256/results/subdirectory/crossdataset/nonorm/scores-dev' is 41.111%
+The Recognition Rate of the development set of 'crossdataset-ynogutti-braccent/256/results/subdirectory/crossdataset/nonorm/scores-dev' is 32.025%
+
+Precision and Recall
+(0.32025089605734769, 0.32025089605734769, 0.32025089605734769, None)
+Accuracy
+1787
+F1-Score
+0.320250896057
+Confusion Matrix
+[[  56   88  173   47 1218]
+ [   0    0    1    0    9]
+ [  64    2  113    6  864]
+ [  24    8   41    6  526]
+ [  25  211  296  190 1612]]
+
+
+The EER of the development set of 'crossdataset-ynogutti-braccent/512/results/subdirectory/crossdataset/nonorm/scores-dev' is 40.376%
+The Recognition Rate of the development set of 'crossdataset-ynogutti-braccent/512/results/subdirectory/crossdataset/nonorm/scores-dev' is 39.283%
+
+Precision and Recall
+(0.392831541218638, 0.392831541218638, 0.39283154121863806, None)
+Accuracy
+2192
+F1-Score
+0.392831541219
+Confusion Matrix
+[[  45   62  104   26  889]
+ [   0    0    3    1    4]
+ [  64    1  109    3  859]
+ [  22    3   42    6  445]
+ [  38  243  366  213 2032]]
+
+The EER of the development set of 'crossdataset-ynogutti-braccent/1024/results/subdirectory/crossdataset/nonorm/scores-dev' is 39.890%
+The Recognition Rate of the development set of 'crossdataset-ynogutti-braccent/1024/results/subdirectory/crossdataset/nonorm/scores-dev' is 44.803%
+
+Precision and Recall
+(0.44802867383512546, 0.44802867383512546, 0.44802867383512546, None)
+Accuracy
+2500
+F1-Score
+0.448028673835
+Confusion Matrix
+[[  29   33   56   13  569]
+ [   1    0    1    0    2]
+ [  63    1  106    5  855]
+ [  25    4   49    3  441]
+ [  51  271  412  228 2362]]
+
+
+The EER of the development set of 'crossdataset-ynogutti-braccent/2048/results/subdirectory/crossdataset/nonorm/scores-dev' is 40.108%
+The Recognition Rate of the development set of 'crossdataset-ynogutti-braccent/2048/results/subdirectory/crossdataset/nonorm/scores-dev' is 49.050%
+
+Precision and Recall
+(0.49050179211469536, 0.49050179211469536, 0.49050179211469536, None)
+Accuracy
+2737
+F1-Score
+0.490501792115
+Confusion Matrix
+[[  13   17   29    7  362]
+ [   1    0    1    0    6]
+ [  63    0   95    3  823]
+ [  22    3   51    2  411]
+ [  70  289  448  237 2627]]
+
+
+#i-Vector
+#T100
+The Recognition Rate of the development set of 'crossdataset-ynogutti-braccent/i-vector/2048/T100/results/subdirectory/crossdataset/nonorm/scores-dev' is 31.631%
+The EER of the development set of 'crossdataset-ynogutti-braccent/i-vector/2048/T100/results/subdirectory/crossdataset/nonorm/scores-dev' is 44.086%
+
+Precision and Recall
+(0.31630824372759858, 0.31630824372759858, 0.31630824372759858, None)
+Accuracy
+1765
+F1-Score
+0.316308243728
+Confusion Matrix
+[[  53  146  203   47 1424]
+ [   0    5   10    3   53]
+ [  64    1  128    6  831]
+ [   9    4   22    6  348]
+ [  43  153  261  187 1573]]
+
+#T150
+The Recognition Rate of the development set of 'crossdataset-ynogutti-braccent/i-vector/2048/T150/results/subdirectory/crossdataset/nonorm/scores-dev' is 31.756%
+The EER of the development set of 'crossdataset-ynogutti-braccent/i-vector/2048/T150/results/subdirectory/crossdataset/nonorm/scores-dev' is 44.478%
+
+Precision and Recall
+(0.31756272401433694, 0.31756272401433694, 0.31756272401433694, None)
+Accuracy
+1772
+F1-Score
+0.317562724014
+Confusion Matrix
+[[  55  119  220   52 1316]
+ [   3    6   11    6   49]
+ [  57    0  116    7  815]
+ [  23    5   25    7  461]
+ [  31  179  252  177 1588]]
+
+
+#T200
+The Recognition Rate of the development set of 'crossdataset-ynogutti-braccent/i-vector/2048/T200/results/subdirectory/crossdataset/nonorm/scores-dev' is 29.104%
+The EER of the development set of 'crossdataset-ynogutti-braccent/i-vector/2048/T200/results/subdirectory/crossdataset/nonorm/scores-dev' is 43.311%
+
+Precision and Recall
+(0.29103942652329751, 0.29103942652329751, 0.29103942652329751, None)
+Accuracy
+1624
+F1-Score
+0.291039426523
+Confusion Matrix
+[[  56  141  228   53 1562]
+ [   1    4   10    4   60]
+ [  64    1  119    3  833]
+ [  14    2   24    7  336]
+ [  34  161  243  182 1438]]
+
+
+#Closedset Ynogutti
+#128
+
+The Recognition Rate of the development set of 'closedset-ynogutti/128/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 92.883%
+The EER of the development set of 'closedset-ynogutti/128/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 7.429%
+
+Precision and Recall
+(0.92882562277580072, 0.92882562277580072, 0.92882562277580072, None)
+Accuracy
+261
+F1-Score
+0.928825622776
+Confusion Matrix
+[[  9   0   0   0   0]
+ [  0  16   3   0   1]
+ [  0   0  28   0   4]
+ [  0   0   1   9   7]
+ [  0   0   0   4 199]]
+
+The Recognition Rate of the development set of 'closedset-ynogutti/128/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 84.532%
+The EER of the development set of 'closedset-ynogutti/128/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 10.072%
+
+Precision and Recall
+(0.84532374100719421, 0.84532374100719421, 0.84532374100719421, None)
+Accuracy
+235
+F1-Score
+0.845323741007
+Confusion Matrix
+[[  7   0   0   0   3]
+ [  0  10   5   0   5]
+ [  0   0  23   0   7]
+ [  1   0   0   3   4]
+ [  0   5   4   9 192]]
+
+The Recognition Rate of the development set of 'closedset-ynogutti/128/fold-3/results/subdirectory/fold-3/nonorm/scores-dev' is 78.417%
+The EER of the development set of 'closedset-ynogutti/128/fold-3/results/subdirectory/fold-3/nonorm/scores-dev' is 14.658%
+
+Precision and Recall
+(0.78417266187050361, 0.78417266187050361, 0.78417266187050361, None)
+Accuracy
+218
+F1-Score
+0.784172661871
+Confusion Matrix
+[[  6   0   0   0   0]
+ [  1   0   0   0   2]
+ [  0   0  15   1  19]
+ [  1   0   0   7   0]
+ [  0  15  17   4 190]]
+
+The Recognition Rate of the development set of 'closedset-ynogutti/128/fold-4/results/subdirectory/fold-4/nonorm/scores-dev' is 80.216%
+The EER of the development set of 'closedset-ynogutti/128/fold-4/results/subdirectory/fold-4/nonorm/scores-dev' is 15.108%
+Precision and Recall
+(0.80215827338129497, 0.80215827338129497, 0.80215827338129508, None)
+Accuracy
+223
+F1-Score
+0.802158273381
+Confusion Matrix
+[[  7   0   0   0   2]
+ [  0   9   1   0   2]
+ [  0   4  24   0  27]
+ [  1   0   0  12   9]
+ [  0   2   7   0 171]]
+
+The Recognition Rate of the development set of 'closedset-ynogutti/128/fold-5/results/subdirectory/fold-5/nonorm/scores-dev' is 88.612%
+The EER of the development set of 'closedset-ynogutti/128/fold-5/results/subdirectory/fold-5/nonorm/scores-dev' is 9.653%
+\Precision and Recall
+(0.88612099644128117, 0.88612099644128117, 0.88612099644128117, None)
+Accuracy
+249
+F1-Score
+0.886120996441
+Confusion Matrix
+[[  9   0   0   0   0]
+ [  0  10   1   1   9]
+ [  0   3  29   0  10]
+ [  0   0   0  11   2]
+ [  0   3   2   1 190]]
+
+The Recognition Rate of the development set of 'closedset-ynogutti/128/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 70.036%
+The EER of the development set of 'closedset-ynogutti/128/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 15.523%
+Precision and Recall
+(0.70036101083032487, 0.70036101083032487, 0.70036101083032487, None)
+Accuracy
+194
+F1-Score
+0.70036101083
+Confusion Matrix
+[[  0   0   0   0   0]
+ [  0  10   0   0   4]
+ [  1   2  27   0  62]
+ [  0   0   0  12   0]
+ [  7   3   4   0 145]]
+ 
+ The Recognition Rate of the development set of 'closedset-ynogutti/128/fold-7/results/subdirectory/fold-7/nonorm/scores-dev' is 54.804%
+The EER of the development set of 'closedset-ynogutti/128/fold-7/results/subdirectory/fold-7/nonorm/scores-dev' is 26.335%
+Precision and Recall
+(0.54804270462633453, 0.54804270462633453, 0.54804270462633453, None)
+Accuracy
+154
+F1-Score
+0.548042704626
+Confusion Matrix
+[[  9   1   0   0   3]
+ [  0   7   1   0  31]
+ [  0   1  10   1  26]
+ [  0   0   0   7  30]
+ [  0   7  21   5 121]]
+
+The Recognition Rate of the development set of 'closedset-ynogutti/128/fold-8/results/subdirectory/fold-8/nonorm/scores-dev' is 86.282%
+The EER of the development set of 'closedset-ynogutti/128/fold-8/results/subdirectory/fold-8/nonorm/scores-dev' is 5.054%
+Precision and Recall
+(0.86281588447653434, 0.86281588447653434, 0.86281588447653434, None)
+Accuracy
+239
+F1-Score
+0.862815884477
+Confusion Matrix
+[[  5   0   0   1   0]
+ [  2  15   0   2   0]
+ [  1   0   2   1   0]
+ [  0   0   0   6   0]
+ [  0   0  29   2 211]]
+
+The Recognition Rate of the development set of 'closedset-ynogutti/128/fold-9/results/subdirectory/fold-9/nonorm/scores-dev' is 89.531%
+The EER of the development set of 'closedset-ynogutti/128/fold-9/results/subdirectory/fold-9/nonorm/scores-dev' is 12.681%
+Precision and Recall
+(0.89530685920577613, 0.89530685920577613, 0.89530685920577613, None)
+Accuracy
+248
+F1-Score
+0.895306859206
+Confusion Matrix
+[[  8   0   0   1   0]
+ [  0  14   0   0   0]
+ [  0   0  17   0   8]
+ [  0   1   0  10   4]
+ [  0   0  14   1 199]]
+
+The Recognition Rate of the development set of 'closedset-ynogutti/128/fold-10/results/subdirectory/fold-10/nonorm/scores-dev' is 39.493%
+The EER of the development set of 'closedset-ynogutti/128/fold-10/results/subdirectory/fold-10/nonorm/scores-dev' is 18.795%
+Precision and Recall
+(0.39492753623188404, 0.39492753623188404, 0.39492753623188404, None)
+Accuracy
+109
+F1-Score
+0.394927536232
+Confusion Matrix
+[[  8   0   0   0   0]
+ [  0  13   0   1   0]
+ [  0   0  26   0 161]
+ [  0   2   0   8   0]
+ [  0   0   0   3  54]]
+ 
+ RR: 76.4806
+ EER: 13.5308
+ F1-Score: 0,764805529
+ Accuracy: 213
+ 
+[[  7   0   0   0   1]
+ [  0  10   1   0   5]
+ [  0   1  20   0  37]
+ [  0   0   0   9   6]
+ [  1   3  10   3  168]]
+
+
+#256
+
+The EER of the development set of 'closedset-ynogutti/256/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 9.253%
+The Recognition Rate of the development set of 'closedset-ynogutti/256/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 88.968%
+
+Precision and Recall
+(0.88967971530249113, 0.88967971530249113, 0.88967971530249113, None)
+Accuracy
+250
+F1-Score
+0.889679715302
+Confusion Matrix
+[[  9   0   0   0   5]
+ [  0  16   4   0   1]
+ [  0   0  27   0   5]
+ [  0   0   1  12  14]
+ [  0   0   0   1 186]]
+
+The EER of the development set of 'closedset-ynogutti/256/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 9.712%
+The Recognition Rate of the development set of 'closedset-ynogutti/256/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 88.489%
+
+Precision and Recall
+(0.8848920863309353, 0.8848920863309353, 0.8848920863309353, None)
+Accuracy
+246
+F1-Score
+0.884892086331
+Confusion Matrix
+[[  7   0   1   0   2]
+ [  0  11   4   0   5]
+ [  0   0  25   0   1]
+ [  0   0   0   8   8]
+ [  1   4   2   4 195]]
+
+The EER of the development set of 'closedset-ynogutti/256/fold-3/results/subdirectory/fold-3/nonorm/scores-dev' is 19.739%
+The Recognition Rate of the development set of 'closedset-ynogutti/256/fold-3/results/subdirectory/fold-3/nonorm/scores-dev' is 74.101%
+
+Precision and Recall
+(0.74100719424460426, 0.74100719424460426, 0.74100719424460426, None)
+Accuracy
+206
+F1-Score
+0.741007194245
+Confusion Matrix
+[[  5   1   0   0   8]
+ [  0   0   0   0   1]
+ [  0   0  15   1  17]
+ [  2   0   0   7   6]
+ [  1  14  17   4 179]]
+ 
+ The EER of the development set of 'closedset-ynogutti/256/fold-4/results/subdirectory/fold-4/nonorm/scores-dev' is 15.827%
+The Recognition Rate of the development set of 'closedset-ynogutti/256/fold-4/results/subdirectory/fold-4/nonorm/scores-dev' is 77.698%
+
+Precision and Recall
+(0.7769784172661871, 0.7769784172661871, 0.7769784172661871, None)
+Accuracy
+216
+F1-Score
+0.776978417266
+Confusion Matrix
+[[  5   0   0   0  11]
+ [  0   9   4   0   2]
+ [  2   3  24   0  24]
+ [  0   0   0  12   8]
+ [  1   3   4   0 166]]
+
+The EER of the development set of 'closedset-ynogutti/256/fold-5/results/subdirectory/fold-5/nonorm/scores-dev' is 9.564%
+The Recognition Rate of the development set of 'closedset-ynogutti/256/fold-5/results/subdirectory/fold-5/nonorm/scores-dev' is 90.747%
+
+Precision and Recall
+(0.90747330960854089, 0.90747330960854089, 0.90747330960854089, None)
+Accuracy
+255
+F1-Score
+0.907473309609
+Confusion Matrix
+[[  9   0   0   0   1]
+ [  0  10   0   0   4]
+ [  0   3  30   0   8]
+ [  0   0   0  13   5]
+ [  0   3   2   0 193]]
+
+The EER of the development set of 'closedset-ynogutti/256/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 15.523%
+The Recognition Rate of the development set of 'closedset-ynogutti/256/fold-6/results/subdirectory/fold-6/nonorm/scores-dev' is 69.314%
+
+Precision and Recall
+(0.69314079422382668, 0.69314079422382668, 0.69314079422382668, None)
+Accuracy
+192
+F1-Score
+0.693140794224
+Confusion Matrix
+[[  1   0   0   0   0]
+ [  0   9   0   0   2]
+ [  0   1  25   0  64]
+ [  0   0   0  12   0]
+ [  7   5   6   0 145]]
+
+The EER of the development set of 'closedset-ynogutti/256/fold-7/results/subdirectory/fold-7/nonorm/scores-dev' is 28.203%
+The Recognition Rate of the development set of 'closedset-ynogutti/256/fold-7/results/subdirectory/fold-7/nonorm/scores-dev' is 56.228%
+
+Precision and Recall
+(0.56227758007117434, 0.56227758007117434, 0.56227758007117434, None)
+Accuracy
+158
+F1-Score
+0.562277580071
+Confusion Matrix
+[[  9   2   0   0   4]
+ [  0   9   1   0  27]
+ [  0   1  10   1  32]
+ [  0   0   0   9  27]
+ [  0   4  21   3 121]]
+
+The EER of the development set of 'closedset-ynogutti/256/fold-8/results/subdirectory/fold-8/nonorm/scores-dev' is 4.738%
+The Recognition Rate of the development set of 'closedset-ynogutti/256/fold-8/results/subdirectory/fold-8/nonorm/scores-dev' is 87.726%
+
+Precision and Recall
+(0.87725631768953072, 0.87725631768953072, 0.87725631768953072, None)
+Accuracy
+243
+F1-Score
+0.87725631769
+Confusion Matrix
+[[  8   0   0   2   0]
+ [  0  15   0   2   0]
+ [  0   0   1   0   0]
+ [  0   0   0   8   0]
+ [  0   0  30   0 211]]
+
+The EER of the development set of 'closedset-ynogutti/256/fold-9/results/subdirectory/fold-9/nonorm/scores-dev' is 13.312%
+The Recognition Rate of the development set of 'closedset-ynogutti/256/fold-9/results/subdirectory/fold-9/nonorm/scores-dev' is 89.170%
+
+Precision and Recall
+(0.89169675090252709, 0.89169675090252709, 0.89169675090252698, None)
+Accuracy
+247
+F1-Score
+0.891696750903
+Confusion Matrix
+[[  8   0   3   0   0]
+ [  0  14   0   0   0]
+ [  0   0  15   0   5]
+ [  0   1   0  12   8]
+ [  0   0  13   0 198]]
+
+The EER of the development set of 'closedset-ynogutti/256/fold-10/results/subdirectory/fold-10/nonorm/scores-dev' is 18.478%
+The Recognition Rate of the development set of 'closedset-ynogutti/256/fold-10/results/subdirectory/fold-10/nonorm/scores-dev' is 51.812%
+
+#Media dos folds
+Precision and Recall
+(0.51811594202898548, 0.51811594202898548, 0.51811594202898548, None)
+Accuracy
+143
+F1-Score
+0.518115942029
+Confusion Matrix
+[[  8   0   0   0   1]
+ [  0  14   0   0   1]
+ [  0   0  26   0 126]
+ [  0   0   0   9   1]
+ [  0   1   0   3  86]]
+ 
+ #i-Vector (256)
+ #T100
+ 
+The Recognition Rate of the development set of 'closedset-ynogutti/ivector/256/T100/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 70.107%
+The EER of the development set of 'closedset-ynogutti/ivector/256/T100/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 19.884%
+The Recognition Rate of the development set of 'closedset-ynogutti/ivector/256/T100/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 70.144%
+The EER of the development set of 'closedset-ynogutti/ivector/256/T100/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 19.694%
+
+Precision and Recall
+(0.70106761565836295, 0.70106761565836295, 0.70106761565836295, None)
+Accuracy
+197
+F1-Score
+0.701067615658
+Confusion Matrix
+[[  9   0   0   0   9]
+ [  0  16   3   0   5]
+ [  0   0  29   0   5]
+ [  0   0   0  13  62]
+ [  0   0   0   0 130]]
+
+Precision and Recall
+(0.70143884892086328, 0.70143884892086328, 0.70143884892086328, None)
+Accuracy
+195
+F1-Score
+0.701438848921
+Confusion Matrix
+[[  7   0   0   0   5]
+ [  0  15   4   0  28]
+ [  0   0  24   0  19]
+ [  1   0   2   7  17]
+ [  0   0   2   5 142]]
+
+
+
+#T150
+The Recognition Rate of the development set of 'closedset-ynogutti/ivector/256/T150/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 63.701%
+The EER of the development set of 'closedset-ynogutti/ivector/256/T150/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 25.267%
+The Recognition Rate of the development set of 'closedset-ynogutti/ivector/256/T150/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 73.741%
+The EER of the development set of 'closedset-ynogutti/ivector/256/T150/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 18.705%
+
+Precision and Recall
+(0.63701067615658358, 0.63701067615658358, 0.63701067615658358, None)
+Accuracy
+179
+F1-Score
+0.637010676157
+Confusion Matrix
+[[  9   0   0   0  30]
+ [  0  16   2   0  15]
+ [  0   0  30   0  16]
+ [  0   0   0  13  39]
+ [  0   0   0   0 111]]
+
+Precision and Recall
+(0.73741007194244601, 0.73741007194244601, 0.73741007194244601, None)
+Accuracy
+205
+F1-Score
+0.737410071942
+Confusion Matrix
+[[  7   0   0   0   3]
+ [  0  15   7   0  24]
+ [  0   0  25   0  17]
+ [  1   0   0  10  19]
+ [  0   0   0   2 148]]
+
+#T200
+The EER of the development set of 'closedset-ynogutti/ivector/256/T200/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 24.600%
+The Recognition Rate of the development set of 'closedset-ynogutti/ivector/256/T200/fold-1/results/subdirectory/fold-1/nonorm/scores-dev' is 68.683%
+The EER of the development set of 'closedset-ynogutti/ivector/256/T200/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 18.255%
+The Recognition Rate of the development set of 'closedset-ynogutti/ivector/256/T200/fold-2/results/subdirectory/fold-2/nonorm/scores-dev' is 73.741%
+
+Precision and Recall
+(0.68683274021352314, 0.68683274021352314, 0.68683274021352314, None)
+Accuracy
+193
+F1-Score
+0.686832740214
+Confusion Matrix
+[[  9   0   0   0  13]
+ [  0  16   1   0  18]
+ [  0   0  31   1  14]
+ [  0   0   0  12  41]
+ [  0   0   0   0 125]]
+
+Precision and Recall
+(0.73741007194244601, 0.73741007194244601, 0.73741007194244601, None)
+Accuracy
+205
+F1-Score
+0.737410071942
+Confusion Matrix
+[[  7   0   0   0   6]
+ [  0  15   4   0  25]
+ [  0   0  26   0  11]
+ [  1   0   0   7  19]
+ [  0   0   2   5 150]]
+
+
