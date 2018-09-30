@@ -10,8 +10,8 @@ import bob.bio.gmm
 import numpy
 import scipy.spatial
 
-temp_directory = './results/closedset_braccent/temp/'
-result_directory = './results/closedset_braccent/results/'
+temp_directory = './results/closedset_braccent/fold_10/temp/'
+result_directory = './results/closedset_braccent/fold_10/results/'
 sub_directory = 'subdirectory'
 
 database = 'database.py'

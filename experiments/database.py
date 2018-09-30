@@ -10,7 +10,7 @@ wav_directory = "baseDeDados/"
 
 database = bob.bio.base.database.FileListBioDatabase('protocolos/closedset_braccent/', 'protocolos',
                                                      bio_file_class=AudioBioFile,
-                                                     protocol='von',
+                                                     protocol='fold_10',
                                                      original_directory=wav_directory,
                                                      original_extension=".wav")
 
