@@ -22,6 +22,9 @@ from sklearn.metrics import precision_recall_fscore_support
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import f1_score
 
+args = docopt(__doc__, version='Run experiment')
+
+file = args["<file>"]
 
 def _iterate_score_file(filename):
     """Opens the score file for reading and yields the score file line by line in a tuple/list.
@@ -35,10 +38,6 @@ def _iterate_score_file(filename):
         splits[-1] = float(splits[-1])
         yield splits
 
-args = docopt(__doc__, version='Run experiment')
-
-file = args["<file>"]
-
 # Grouping the scores by probe_file
 four_columns = _iterate_score_file(file)
 scores_dict = dict()
@@ -49,7 +48,6 @@ for model_id, probe_id, probe_file, score in four_columns:
 
     # Grouping using dictionaries
     scores_dict[probe_file].append([int(model_id), int(probe_id), score])
-
 
 # Computing the expected/predicted lists
 y_predicted = []
@@ -65,7 +63,6 @@ for key in scores_dict:
     # Getting the expected and the predicted scores
     y_expected.append(int(scores[index, 0]))
     y_predicted.append(int(scores[index, 1]))
-
 
 #Computing precision, recall, F-measure and support for each class
 print('Precision and Recall')
@@ -83,5 +80,5 @@ print(fscore)
 
 # Printing the confusion matrix
 print('Confusion Matrix')
-cm = confusion_matrix(y_expected, y_predicted)
+cm = numpy.array(confusion_matrix(y_expected, y_predicted))
 print(cm)
