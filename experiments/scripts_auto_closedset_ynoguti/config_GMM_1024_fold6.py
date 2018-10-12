@@ -26,5 +26,5 @@ extractor = bob.bio.spear.extractor.Cepstral(win_length_ms = 25, win_shift_ms = 
 algorithm = bob.bio.gmm.algorithm.GMMRegular(number_of_gaussians = 1024, kmeans_training_iterations = 10, gmm_training_iterations = 10,
 training_threshold = 5e-4, variance_threshold = 5e-4, update_weights = True, update_means = True, update_variances = True, relevance_factor = 4, gmm_enroll_iterations = 1, responsibility_threshold = 0, INIT_SEED = 5489)
 
-parallel = 8
+parallel = 40
 verbose = 2
