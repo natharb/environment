@@ -25,5 +25,5 @@ extractor = bob.bio.spear.extractor.Cepstral(win_length_ms = 25, win_shift_ms = 
 
 algorithm = bob.bio.gmm.algorithm.IVector(subspace_dimension_of_t = 200, tv_training_iterations = 10, update_sigma = True, use_whitening = True, use_lda = False, use_wccn = False, use_plda = False, lda_dim = 50, plda_dim_F  = 50, plda_dim_G = 50, plda_training_iterations = 50, number_of_gaussians = 2048)
 
-parallel = 8
+parallel = 4
 verbose = 2
