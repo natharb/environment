@@ -1,7 +1,7 @@
 #!/bin/sh
 
-../../bin/verify.py config_GMM_256_fold1.py database_GMM_256_fold1.py
-rm -rf results/all_dataset/GMM/256/fold_1/temp/subdirectory/extracted/ results/all_dataset/GMM/256/fold_1/temp/subdirectory/preprocessed/
+#../../bin/verify.py config_GMM_256_fold1.py database_GMM_256_fold1.py
+#rm -rf results/all_dataset/GMM/256/fold_1/temp/subdirectory/extracted/ results/all_dataset/GMM/256/fold_1/temp/subdirectory/preprocessed/
 ../../bin/verify.py config_GMM_256_fold2.py database_GMM_256_fold2.py
 rm -rf results/all_dataset/GMM/256/fold_2/temp/subdirectory/extracted/ results/all_dataset/GMM/256/fold_2/temp/subdirectory/preprocessed/
 ../../bin/verify.py config_GMM_256_fold3.py database_GMM_256_fold3.py
