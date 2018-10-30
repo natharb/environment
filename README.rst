@@ -2,6 +2,7 @@
 Master's project - Unicamp
 ==============
 
+Configuring environment to run experiments.
 
 After everything installed do::
 
