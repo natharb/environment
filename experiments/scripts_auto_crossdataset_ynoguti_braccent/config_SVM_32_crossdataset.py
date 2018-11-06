@@ -10,8 +10,8 @@ import bob.bio.gmm
 import numpy
 import scipy.spatial
 
-temp_directory = './results/crossdataset_ynoguti_braccent/SVM/32/crossdataset/temp/'
-result_directory = './results/crossdataset_ynoguti_braccent/SVM/32/crossdataset/results/'
+temp_directory = './results/crossdataset_ynoguti_braccent/SVM/32/temp/'
+result_directory = './results/crossdataset_ynoguti_braccent/SVM/32/results/'
 sub_directory = 'subdirectory'
 
 database = 'database_SVM_32_crossdataset.py'
