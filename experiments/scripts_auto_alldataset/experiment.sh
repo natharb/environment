@@ -1,5 +1,7 @@
 #!/bin/sh
 
+python ../experiments_SBrT_2018/scripts_python/renomeiaArquivos2.py
+
 #../../bin/verify.py config_GMM_256_fold1.py database_GMM_256_fold1.py
 #rm -rf results/all_dataset/GMM/256/fold_1/temp/subdirectory/extracted/ results/all_dataset/GMM/256/fold_1/temp/subdirectory/preprocessed/
 #../../bin/verify.py config_GMM_256_fold2.py database_GMM_256_fold2.py
