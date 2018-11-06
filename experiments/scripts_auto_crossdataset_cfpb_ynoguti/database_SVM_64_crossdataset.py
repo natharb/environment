@@ -10,7 +10,7 @@ wav_directory = "../baseDeDados/"
 
 database = bob.bio.base.database.FileListBioDatabase('protocolos/crossdataset_cfpb_ynoguti/', 'protocolos',
                                                      bio_file_class=AudioBioFile,
-                                                     protocol='fold_1',
+                                                     protocol='crossdataset',
                                                      original_directory=wav_directory,
                                                      original_extension=".wav")
 
