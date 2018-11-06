@@ -10,11 +10,11 @@ import bob.bio.gmm
 import numpy
 import scipy.spatial
 
-temp_directory = './results/crossdataset_cfpb_ynoguti/SVM/32/fold_1/temp/'
-result_directory = './results/crossdataset_cfpb_ynoguti/SVM/32/fold_1/results/'
+temp_directory = './results/crossdataset_cfpb_ynoguti/SVM/32/crossdataset/temp/'
+result_directory = './results/crossdataset_cfpb_ynoguti/SVM/32/crossdataset/results/'
 sub_directory = 'subdirectory'
 
-database = 'database_SVM_32_fold1.py'
+database = 'database_SVM_32_crossdataset.py'
 
 groups = ['dev']
 #groups = ['dev', 'eval']

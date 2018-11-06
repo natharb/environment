@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+f#!/usr/bin/env python
 # vim: set fileencoding=utf-8 :
 #Nathália Alves Rocha Batista (nathbapt@decom.fee.unicamp.br)
 
@@ -10,11 +10,11 @@ import bob.bio.gmm
 import numpy
 import scipy.spatial
 
-temp_directory = './results/crossdataset_ynoguti_cfpb/SVM/32/fold_1/temp/'
-result_directory = './results/crossdataset_ynoguti_cfpb/SVM/32/fold_1/results/'
+temp_directory = './results/crossdataset_ynoguti_cfpb/SVM/32/crossdataset/temp/'
+result_directory = './results/crossdataset_ynoguti_cfpb/SVM/32/crossdataset/results/'
 sub_directory = 'subdirectory'
 
-database = 'database_SVM_32_fold1.py'
+database = 'database_SVM_32_crossdataset.py'
 
 groups = ['dev']
 #groups = ['dev', 'eval']
