@@ -1,0 +1,19 @@
+Command line:
+/net/nfs1.dspcom.fee.unicamp.br/export/DSPCOM/home/nathbapt/Repositorios/environment/bin/verify.py 'config_GMM_1024_fold5.py' 'database_GMM_1024_fold5.py' 
+
+Host: dspcom-wkst-1
+Configuration:
+Database:
+<class 'bob.bio.base.database.FileListBioDatabase'>(name=protocolos, protocol=fold_5, original_directory=../baseDeDados/, original_extension=.wavfilelists_directory=protocolos/closedset_ynoguti/, dev_sub_directory=None, eval_sub_directory=None, world_filename=None, optional_world_1_filename=None, optional_world_2_filename=None, models_filename=None, probes_filename=None, scores_filename=None, tnorm_filename=None, znorm_filename=None, use_dense_probe_file_list=None, keep_read_lists_in_memory=True, original_directory=../baseDeDados/, original_extension=.wav)
+
+Preprocessor:
+<class 'bob.bio.spear.preprocessor.Energy_2Gauss'>(max_iterations=10, convergence_threshold=0.0005, variance_threshold=0.0005, win_length_ms=20.0, win_shift_ms=10.0, smoothing_window=10)
+
+Extractor:
+<class 'bob.bio.spear.extractor.Cepstral'>(win_length_ms=25, win_shift_ms=10, n_filters=24, dct_norm=False, f_min=0, f_max=4000, delta_win=2, mel_scale=True, with_energy=True, with_delta=True, with_delta_delta=True, n_ceps=19, pre_emphasis_coef=0.97, features_mask=[ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+ 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49
+ 50 51 52 53 54 55 56 57 58 59], normalize_flag=True)
+
+Algorithm:
+<class 'bob.bio.gmm.algorithm.GMMRegular'>(multiple_model_scoring='average', multiple_probe_scoring='average')
+
