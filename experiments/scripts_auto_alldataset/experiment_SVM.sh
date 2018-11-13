@@ -1,5 +1,68 @@
 #!/bin/sh
 
+../../bin/verify.py config_SVM_32_fold1.py database_SVM_32_fold1.py
+rm -rf results/all_dataset/SVM/32/fold_1/temp/subdirectory/extracted/ results/all_dataset/SVM/32/fold_1/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_32_fold2.py database_SVM_32_fold2.py
+rm -rf results/all_dataset/SVM/32/fold_2/temp/subdirectory/extracted/ results/all_dataset/SVM/32/fold_2/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_32_fold3.py database_SVM_32_fold3.py
+rm -rf results/all_dataset/SVM/32/fold_3/temp/subdirectory/extracted/ results/all_dataset/SVM/32/fold_3/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_32_fold4.py database_SVM_32_fold4.py
+rm -rf results/all_dataset/SVM/32/fold_4/temp/subdirectory/extracted/ results/all_dataset/SVM/32/fold_4/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_32_fold5.py database_SVM_32_fold5.py
+rm -rf results/all_dataset/SVM/32/fold_5/temp/subdirectory/extracted/ results/all_dataset/SVM/32/fold_5/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_32_fold6.py database_SVM_32_fold6.py
+rm -rf results/all_dataset/SVM/32/fold_6/temp/subdirectory/extracted/ results/all_dataset/SVM/32/fold_6/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_32_fold7.py database_SVM_32_fold7.py
+rm -rf results/all_dataset/SVM/32/fold_7/temp/subdirectory/extracted/ results/all_dataset/SVM/32/fold_7/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_32_fold8.py database_SVM_32_fold8.py
+rm -rf results/all_dataset/SVM/32/fold_8/temp/subdirectory/extracted/ results/all_dataset/SVM/32/fold_8/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_32_fold9.py database_SVM_32_fold9.py
+rm -rf results/all_dataset/SVM/32/fold_9/temp/subdirectory/extracted/ results/all_dataset/SVM/32/fold_9/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_32_fold10.py database_SVM_32_fold10.py
+rm -rf results/all_dataset/SVM/32/fold_10/temp/subdirectory/extracted/ results/all_dataset/SVM/32/fold_10/temp/subdirectory/preprocessed/
+
+../../bin/verify.py config_SVM_64_fold1.py database_SVM_64_fold1.py
+rm -rf results/all_dataset/SVM/64/fold_1/temp/subdirectory/extracted/ results/all_dataset/SVM/64/fold_1/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_64_fold2.py database_SVM_64_fold2.py
+rm -rf results/all_dataset/SVM/64/fold_2/temp/subdirectory/extracted/ results/all_dataset/SVM/64/fold_2/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_64_fold3.py database_SVM_64_fold3.py
+rm -rf results/all_dataset/SVM/64/fold_3/temp/subdirectory/extracted/ results/all_dataset/SVM/64/fold_3/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_64_fold4.py database_SVM_64_fold4.py
+rm -rf results/all_dataset/SVM/64/fold_4/temp/subdirectory/extracted/ results/all_dataset/SVM/64/fold_4/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_64_fold5.py database_SVM_64_fold5.py
+rm -rf results/all_dataset/SVM/64/fold_5/temp/subdirectory/extracted/ results/all_dataset/SVM/64/fold_5/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_64_fold6.py database_SVM_64_fold6.py
+rm -rf results/all_dataset/SVM/64/fold_6/temp/subdirectory/extracted/ results/all_dataset/SVM/64/fold_6/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_64_fold7.py database_SVM_64_fold7.py
+rm -rf results/all_dataset/SVM/64/fold_7/temp/subdirectory/extracted/ results/all_dataset/SVM/64/fold_7/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_64_fold8.py database_SVM_64_fold8.py
+rm -rf results/all_dataset/SVM/64/fold_8/temp/subdirectory/extracted/ results/all_dataset/SVM/64/fold_8/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_64_fold9.py database_SVM_64_fold9.py
+rm -rf results/all_dataset/SVM/64/fold_9/temp/subdirectory/extracted/ results/all_dataset/SVM/64/fold_9/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_64_fold10.py database_SVM_64_fold10.py
+rm -rf results/all_dataset/SVM/64/fold_10/temp/subdirectory/extracted/ results/all_dataset/SVM/64/fold_10/temp/subdirectory/preprocessed/
+
+../../bin/verify.py config_SVM_128_fold1.py database_SVM_128_fold1.py
+rm -rf results/all_dataset/SVM/128/fold_1/temp/subdirectory/extracted/ results/all_dataset/SVM/128/fold_1/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_128_fold2.py database_SVM_128_fold2.py
+rm -rf results/all_dataset/SVM/128/fold_2/temp/subdirectory/extracted/ results/all_dataset/SVM/128/fold_2/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_128_fold3.py database_SVM_128_fold3.py
+rm -rf results/all_dataset/SVM/128/fold_3/temp/subdirectory/extracted/ results/all_dataset/SVM/128/fold_3/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_128_fold4.py database_SVM_128_fold4.py
+rm -rf results/all_dataset/SVM/128/fold_4/temp/subdirectory/extracted/ results/all_dataset/SVM/128/fold_4/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_128_fold5.py database_SVM_128_fold5.py
+rm -rf results/all_dataset/SVM/128/fold_5/temp/subdirectory/extracted/ results/all_dataset/SVM/128/fold_5/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_128_fold6.py database_SVM_128_fold6.py
+rm -rf results/all_dataset/SVM/128/fold_6/temp/subdirectory/extracted/ results/all_dataset/SVM/128/fold_6/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_128_fold7.py database_SVM_128_fold7.py
+rm -rf results/all_dataset/SVM/128/fold_7/temp/subdirectory/extracted/ results/all_dataset/SVM/128/fold_7/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_128_fold8.py database_SVM_128_fold8.py
+rm -rf results/all_dataset/SVM/128/fold_8/temp/subdirectory/extracted/ results/all_dataset/SVM/128/fold_8/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_128_fold9.py database_SVM_128_fold9.py
+rm -rf results/all_dataset/SVM/128/fold_9/temp/subdirectory/extracted/ results/all_dataset/SVM/128/fold_9/temp/subdirectory/preprocessed/
+../../bin/verify.py config_SVM_128_fold10.py database_SVM_128_fold10.py
+rm -rf results/all_dataset/SVM/128/fold_10/temp/subdirectory/extracted/ results/all_dataset/SVM/128/fold_10/temp/subdirectory/preprocessed/
+
 ../../bin/verify.py config_SVM_256_fold1.py database_SVM_256_fold1.py
 rm -rf results/all_dataset/SVM/256/fold_1/temp/subdirectory/extracted/ results/all_dataset/SVM/256/fold_1/temp/subdirectory/preprocessed/
 ../../bin/verify.py config_SVM_256_fold2.py database_SVM_256_fold2.py
@@ -21,65 +84,4 @@ rm -rf results/all_dataset/SVM/256/fold_9/temp/subdirectory/extracted/ results/a
 ../../bin/verify.py config_SVM_256_fold10.py database_SVM_256_fold10.py
 rm -rf results/all_dataset/SVM/256/fold_10/temp/subdirectory/extracted/ results/all_dataset/SVM/256/fold_10/temp/subdirectory/preprocessed/
 
-../../bin/verify.py config_SVM_512_fold1.py database_SVM_512_fold1.py
-rm -rf results/all_dataset/SVM/512/fold_1/temp/subdirectory/extracted/ results/all_dataset/SVM/512/fold_1/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_512_fold2.py database_SVM_512_fold2.py
-rm -rf results/all_dataset/SVM/512/fold_2/temp/subdirectory/extracted/ results/all_dataset/SVM/512/fold_2/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_512_fold3.py database_SVM_512_fold3.py
-rm -rf results/all_dataset/SVM/512/fold_3/temp/subdirectory/extracted/ results/all_dataset/SVM/512/fold_3/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_512_fold4.py database_SVM_512_fold4.py
-rm -rf results/all_dataset/SVM/512/fold_4/temp/subdirectory/extracted/ results/all_dataset/SVM/512/fold_4/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_512_fold5.py database_SVM_512_fold5.py
-rm -rf results/all_dataset/SVM/512/fold_5/temp/subdirectory/extracted/ results/all_dataset/SVM/512/fold_5/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_512_fold6.py database_SVM_512_fold6.py
-rm -rf results/all_dataset/SVM/512/fold_6/temp/subdirectory/extracted/ results/all_dataset/SVM/512/fold_6/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_512_fold7.py database_SVM_512_fold7.py
-rm -rf results/all_dataset/SVM/512/fold_7/temp/subdirectory/extracted/ results/all_dataset/SVM/512/fold_7/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_512_fold8.py database_SVM_512_fold8.py
-rm -rf results/all_dataset/SVM/512/fold_8/temp/subdirectory/extracted/ results/all_dataset/SVM/512/fold_8/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_512_fold9.py database_SVM_512_fold9.py
-rm -rf results/all_dataset/SVM/512/fold_9/temp/subdirectory/extracted/ results/all_dataset/SVM/512/fold_9/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_512_fold10.py database_SVM_512_fold10.py
-rm -rf results/all_dataset/SVM/512/fold_10/temp/subdirectory/extracted/ results/all_dataset/SVM/512/fold_10/temp/subdirectory/preprocessed/
 
-../../bin/verify.py config_SVM_1024_fold1.py database_SVM_1024_fold1.py
-rm -rf results/all_dataset/SVM/1024/fold_1/temp/subdirectory/extracted/ results/all_dataset/SVM/1024/fold_1/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_1024_fold2.py database_SVM_1024_fold2.py
-rm -rf results/all_dataset/SVM/1024/fold_2/temp/subdirectory/extracted/ results/all_dataset/SVM/1024/fold_2/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_1024_fold3.py database_SVM_1024_fold3.py
-rm -rf results/all_dataset/SVM/1024/fold_3/temp/subdirectory/extracted/ results/all_dataset/SVM/1024/fold_3/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_1024_fold4.py database_SVM_1024_fold4.py
-rm -rf results/all_dataset/SVM/1024/fold_4/temp/subdirectory/extracted/ results/all_dataset/SVM/1024/fold_4/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_1024_fold5.py database_SVM_1024_fold5.py
-rm -rf results/all_dataset/SVM/1024/fold_5/temp/subdirectory/extracted/ results/all_dataset/SVM/1024/fold_5/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_1024_fold6.py database_SVM_1024_fold6.py
-rm -rf results/all_dataset/SVM/1024/fold_6/temp/subdirectory/extracted/ results/all_dataset/SVM/1024/fold_6/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_1024_fold7.py database_SVM_1024_fold7.py
-rm -rf results/all_dataset/SVM/1024/fold_7/temp/subdirectory/extracted/ results/all_dataset/SVM/1024/fold_7/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_1024_fold8.py database_SVM_1024_fold8.py
-rm -rf results/all_dataset/SVM/1024/fold_8/temp/subdirectory/extracted/ results/all_dataset/SVM/1024/fold_8/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_1024_fold9.py database_SVM_1024_fold9.py
-rm -rf results/all_dataset/SVM/1024/fold_9/temp/subdirectory/extracted/ results/all_dataset/SVM/1024/fold_9/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_1024_fold10.py database_SVM_1024_fold10.py
-rm -rf results/all_dataset/SVM/1024/fold_10/temp/subdirectory/extracted/ results/all_dataset/SVM/1024/fold_10/temp/subdirectory/preprocessed/
-
-../../bin/verify.py config_SVM_2048_fold1.py database_SVM_2048_fold1.py
-rm -rf results/all_dataset/SVM/2048/fold_1/temp/subdirectory/extracted/ results/all_dataset/SVM/2048/fold_1/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_2048_fold2.py database_SVM_2048_fold2.py
-rm -rf results/all_dataset/SVM/2048/fold_2/temp/subdirectory/extracted/ results/all_dataset/SVM/2048/fold_2/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_2048_fold3.py database_SVM_2048_fold3.py
-rm -rf results/all_dataset/SVM/2048/fold_3/temp/subdirectory/extracted/ results/all_dataset/SVM/2048/fold_3/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_2048_fold4.py database_SVM_2048_fold4.py
-rm -rf results/all_dataset/SVM/2048/fold_4/temp/subdirectory/extracted/ results/all_dataset/SVM/2048/fold_4/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_2048_fold5.py database_SVM_2048_fold5.py
-rm -rf results/all_dataset/SVM/2048/fold_5/temp/subdirectory/extracted/ results/all_dataset/SVM/2048/fold_5/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_2048_fold6.py database_SVM_2048_fold6.py
-rm -rf results/all_dataset/SVM/2048/fold_6/temp/subdirectory/extracted/ results/all_dataset/SVM/2048/fold_6/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_2048_fold7.py database_SVM_2048_fold7.py
-rm -rf results/all_dataset/SVM/2048/fold_7/temp/subdirectory/extracted/ results/all_dataset/SVM/2048/fold_7/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_2048_fold8.py database_SVM_2048_fold8.py
-rm -rf results/all_dataset/SVM/2048/fold_8/temp/subdirectory/extracted/ results/all_dataset/SVM/2048/fold_8/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_2048_fold9.py database_SVM_2048_fold9.py
-rm -rf results/all_dataset/SVM/2048/fold_9/temp/subdirectory/extracted/ results/all_dataset/SVM/2048/fold_9/temp/subdirectory/preprocessed/
-../../bin/verify.py config_SVM_2048_fold10.py database_SVM_2048_fold10.py
-rm -rf results/all_dataset/SVM/2048/fold_10/temp/subdirectory/extracted/ results/all_dataset/SVM/2048/fold_10/temp/subdirectory/preprocessed/
